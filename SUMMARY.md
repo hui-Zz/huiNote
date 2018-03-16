@@ -6,6 +6,7 @@
   * [JS](UI/JS/README.md)
     * [JQuery](UI/JS/JQuery/README.md)
     * [ExtJS](UI/JS/ExtJS/README.md)
+    - [JavaScript](UI/JS/JavaScript.md)
   * [Html](UI/Html/README.md)
   * [CSS](UI/CSS/README.md)
 * [DB](DB/README.md)
