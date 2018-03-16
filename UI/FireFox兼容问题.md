@@ -4,7 +4,9 @@
 
 **需要使用：document.documentElement.scrollTop**
 
- `var scroll = (document.body.scrollTop) ? document.body.scrollTop : document.documentElement.scrollTop; //兼容Firefox`
+```JS
+var scroll = (document.body.scrollTop) ? document.body.scrollTop : document.documentElement.scrollTop; //兼容Firefox
+```
 
 # FF中不兼容document.forms("formname")
 
