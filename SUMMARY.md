@@ -9,7 +9,7 @@
   * [Html](UI/Html/README.md)
   * [CSS](UI/CSS/README.md)
   * [HTTP请求的过程.md](UI/HTTP请求的过程.md)
-  * [js和css兼容IE和FireFox\(FF\) .md](UI/js和css兼容IE和FireFox%28FF%29 .md)
+  * [js和css兼容IE和FireFox.md](UI/js和css兼容IE和FireFox.md)
   * [FireFox兼容问题.md](UI/FireFox兼容问题.md)
 * [DB](DB/README.md)
   * [MySQL](DB/MySQL/README.md)
