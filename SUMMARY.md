@@ -3,7 +3,7 @@
 * [Introduction简介](README.md)
 * [Read](Read.md)
 * [UI](UI/README.md)
-  * [JS](UI/JS/README.md)
+  * [JS](UI\\JS\\README.md)
     * [JQuery](UI/JS/JQuery/README.md)
     * [ExtJS](UI/JS/ExtJS/README.md)
     * [JS全选不选反选](UI/JS/JS全选不选反选.md)
