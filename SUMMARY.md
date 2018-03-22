@@ -1,7 +1,10 @@
 ﻿# Summary
 
 * [Introduction简介](README.md)
+* [](.gitignore)
 * [Read](Read.md)
+* [README](README.md)
+* [SUMMARY](SUMMARY.md)
 * [DB](DB/README.md)
   * [Oracle与MySQL不同点](DB/Oracle与MySQL不同点.md)
   * [Oracle与SQLServer区别](DB/Oracle与SQLServer区别.md)
