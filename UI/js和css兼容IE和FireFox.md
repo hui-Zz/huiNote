@@ -1,3 +1,5 @@
+[TOC]
+
 # **js和css兼容IE和FireFox(FF) ** 
 
 (说明:下面凡说w3c代表Firefox,Chrome,Safari,Opera，FF则代表Firefox)  
