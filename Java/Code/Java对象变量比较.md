@@ -1,4 +1,4 @@
-```Java
+```java
 Compare c1 = new Compare();
 Compare c2 = new Compare();
 Field[] fields = c1.getClass().getDeclaredFields();
