@@ -1,26 +1,26 @@
 [TOC]
 
 # 三元运算符：
-```Java 
+```java
 (expression) ? case1 : case2;
 ```
 
 
 # if & for 代码简化：
-```Java 
+```java
 for(int i = 0;  null  !=  num && i < num; i++) {} 
 ```
 
 
 # equals前后顺序导致是否空值异常：
-```Java 
+```java
 "".equals(var)
 (null != var)
 ```
 
 
 # 打印数组内容
-```Java 
+```java
 java.util.Arrays.toString(StrList ) 
 ```
 
@@ -31,7 +31,7 @@ java.util.Arrays.toString(StrList )
 #  转义字符： "."、"|"、"*"、"+"
 
 
-```Java 
+```java
 String.split(\\|);  
 ```
 
