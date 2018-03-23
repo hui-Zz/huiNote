@@ -1,18 +1,18 @@
-` ` `Java
+```java
 /**
  * 测试类
  */
 public static void main(String[] args) throws ParseException {
-SimpleDateFormat sdf = new SimpleDateFormat("yyyy.MM.dd");
-int month = getMonth(sdf.parse("2015.03.01"), sdf.parse("2016.02.29"));
-System.out.println(month);
-System.out.println(checkTwoDay(sdf.parse("2015.03.01"), sdf.parse("2016.02.29"), 365));
+  SimpleDateFormat sdf = new SimpleDateFormat("yyyy.MM.dd");
+  int month = getMonth(sdf.parse("2015.03.01"), sdf.parse("2016.02.29"));
+  System.out.println(month);
+  System.out.println(checkTwoDay(sdf.parse("2015.03.01"), sdf.parse("2016.02.29"), 365));
 }
-` ` `
+```
 
 # 判断两个时间间隔是否大于指定天数
-` ` `Java
 
+```java
 /**
 
  * 判断两个时间间隔是否大于指定天数
@@ -31,11 +31,11 @@ return false;
 }
 return true;
 }
-` ` `
+```
 
 # 计算两个时间月份差
-` ` `Java
 
+```java
 /**
  * 计算两个时间月份差
  */
@@ -59,4 +59,4 @@ return ((endC.get(Calendar.YEAR) - startC.get(Calendar.YEAR))
 return endC.get(Calendar.MONTH) - startC.get(Calendar.MONTH) - dayOfMonth;
 }
 }
-` ` `
+```
