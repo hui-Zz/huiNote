@@ -2,7 +2,7 @@
 | --------------------- | -------------------------- |
 | Make Landmark         | Ctrl+Alt+Shift+Up          |
 | Make Less Interesting | Ctrl+Alt+Shift+Down        |
-| 保存                    | <kbd>Ctrl</kbd>+S                     |
+| 保存                    | <kbd>Ctrl</kbd>+S                    |
 | 保存全部                  | Ctrl+Shift+S               |
 | 插件菜单Spy               | Alt+Shift+F2               |
 | 插件选择间谍                | Alt+Shift+F1               |
@@ -95,7 +95,7 @@
 | 重命名                   | F2                         |
 | 重做                    | Ctrl+Y                     |
 | 组织导入                  | Ctrl+Shift+O               |
- 
+
 | 显示(全局)           | 显示快捷键                |
 | ---------------- | -------------------- |
 | 显示               | Ctrl+Shift+D         |
@@ -124,8 +124,8 @@
 | 显示系统菜单           | Alt+-                |
 | 显示源码快速菜单         | Alt+Shift+S          |
 | 显示重构快速菜单         | Alt+Shift+T          |
- 
- 
+
+
 | 运行(全局)          | 运行快捷键          |
 | --------------- | -------------- |
 | 单步跳入            | F5             |
@@ -159,8 +159,8 @@
 | 显示              | Ctrl+D         |
 | 运行至行            | Ctrl+R         |
 | 执行              | Ctrl+U         |
- 
- 
+
+
 | 重构(全局)   | 重构快捷键       |
 | -------- | ----------- |
 | 包围方式快速菜单 | Alt+Shift+Z |
