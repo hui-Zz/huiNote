@@ -1,5 +1,5 @@
 [TOC]
- 
+
 |  使用  | 插件名称                          | 插件介绍                                     | 官网地址                                     |
 | :--: | ----------------------------- | ---------------------------------------- | ---------------------------------------- |
 |      | IDE Features Trainer          | IntelliJ IDEA 官方出的学习辅助插件                 | [https://plugins.jetbrains.com/plugin/8554?pr=idea](https://plugins.jetbrains.com/plugin/8554?pr=idea) |
@@ -20,26 +20,27 @@
 |  ✔   | JavaDoc                       | Java Doc 注释生成                            |                                          |
 |  ✔   | **LiveEdit**                  | 提供现场编辑HTML / CSS / JavaScript            |                                          |
 |  ✔   | **Mybatis plugin**            | Mybatis 代码跳转                             |                                          |
+| ✔ | MyBatis Log Plugin | Mybatis打印SQL日志还原成完整的sql语句和格式化 |  |
+
  
- 
- 
+
 # Mybatis plugin
- 
+
 https://github.com/myoss/profile
- 
+
 1. 下载完成之后解压出来，进入profile-master\idea\plugin\MybatisPlugin
 2. 用压缩软件打开我们安装的MyBatis插件里面的mybatis_plus.jar这个jar文件
 3. 然后打开MybatisPlugin文件夹中你安装的mybatis插件对应的版本，里面会有一个com文件夹，将com文件夹拖入用压缩软件打开的jar包中，选择替换。
    替换之后重启IDEA，就可以完成激活MyBatis插件了
- 
+
 # 特效
- 
+
 ## activate-power-mode
- 
+
 https://github.com/ViceFantasyPlace/activate-power-mode
- 
+
 ## Power Mode II
- 
+
 https://github.com/axaluss/power-mode-intellij-plugin
- 
+
  
