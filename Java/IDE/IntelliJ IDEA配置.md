@@ -14,9 +14,14 @@
 - **Tabs and Indents**
   - Tab size: `2`
   - Indent: `2`
- 
+  - Continuation indent: `4`
  
 - [x] Use tab character
+
+- **Wrapping and Braces**
+  - Method declaration parameters
+    - [] Align when multiline
+
 - **Imports**
   - class count to use import with '*' :`500`
   - Names count to use static import with '*' :`500`
