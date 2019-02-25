@@ -3,7 +3,7 @@
 | Model1 |       JavaBean       | JSP  |       JSP        | 仅用于Demo |
 | Model2 | JavaBean/dao/service | JSP  | Servlet(action)  | 老旧项目   |
 |  SSH   |      Hibernate       | JSP  |  Struts2/Spring  | 2014以前   |
-|  SSM   |       MyBatis        | JSP/ Velocity/FreeMarker   | SpringMVC/Spring | 2015以后   |
+|  SSM   |       MyBatis        | HTML/JSP/Velocity/FreeMarker | SpringMVC/Spring | 2015以后   |
  
 ##  MVC设计模式
 
@@ -34,4 +34,9 @@
 * 开发者可以利用它快速开发需要定制的程序。
 * 框架最大的好处就是重用。
 * 面向对象系统获得的最大的复用方式就是框架，一个大的应用系统往往由多个互相协作的框架组成。  
- 
+
+---
+基础框架和业务功能是相辅相成的。
+如果用房子做比喻，空有无比坚固的架构最多只能用来当防空洞，
+而有了业务的装修就能变成商场、酒店、健身房之类的场所；
+反过来即使装修的再漂亮，如果框架是豆腐渣的话，那也就没有了意义。

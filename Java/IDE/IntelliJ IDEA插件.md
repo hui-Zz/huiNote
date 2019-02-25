@@ -15,7 +15,7 @@
 | _ | Jindent-Source Code Formatter | 自定义类、方法、doc、变量注释模板                       | [http://plugins.jetbrains.com/plugin/2170?pr=idea](http://plugins.jetbrains.com/plugin/2170?pr=idea) |
 | ✔ | Key promoter                  | 快捷键提示                                    | https://plugins.jetbrains.com/plugin/4455?pr=idea |
 |     | LiveEdit                  | 提供现场编辑HTML / CSS / JavaScript            |                                          |
-| _ | Maven Helper | Maven 辅助插件 | https://plugins.jetbrains.com/plugin/7179-maven-helper |
+| ✔ | Maven Helper | Maven 辅助插件 | https://plugins.jetbrains.com/plugin/7179-maven-helper |
 | _ | MultiMarkdown <br> Markdown Navigator | 书写 Markdown 文章                           | https://plugins.jetbrains.com/plugin/7896?pr=idea |
 | ✔ | MyBatis Log Plugin | Mybatis打印SQL日志还原成完整的sql语句和格式化 |  |
 |  ✔   | Mybatis plugin            | Mybatis 代码跳转                             | Free Mybatis plugin |
