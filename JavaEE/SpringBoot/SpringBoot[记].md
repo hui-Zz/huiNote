@@ -26,6 +26,8 @@
 
 - 可在Application类注解扫描目录 `@ComponentScan("com")`来改变默认扫描目录
 
+- > 在JUnitTest时，项目名路径外仍无法正确识别，无法正常测试
+
 # Spring Boot 热部署
 
 ```xml
