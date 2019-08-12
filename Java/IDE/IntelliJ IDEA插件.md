@@ -23,7 +23,6 @@
 | JavaDoc                       | 辅助                          | Java Doc 注释生成                            |
 | Jindent-Source Code Formatter | 辅助                     | 自定义类、方法、doc、变量注释模板                       |
 | JRebel Plugin | 工具                                    | 热部署                                      |
-| JUnitGenerator | 辅助 | 单元测试测试生成工具 |
 | Key promoter X                | 辅助                                  | 快捷键提示                                    |
 | LiveEdit                  | 快捷          | 提供现场编辑HTML / CSS / JavaScript            |
 | Lombok                         | 代码 | @Setter,@Getter  不需要编写或生成get/set等方法，很大程度上减少了代码量 |
@@ -44,6 +43,7 @@
 | stackoverflow | 快捷 | 右键stackoverflow 搜索 |
 | Statistic                      | 代码                                                   | 代码统计                                                     |
 | String Manipulation            | 代码                             | 驼峰式命名和下划线命名交替变化                               |
+| Swagger |  |  |
 
 
 # Mybatis plugin
