@@ -1,6 +1,8 @@
-# 查看adb版本和
+# 查看adb版本
 ```shell
 adb version
+# 获取系统上所有的users
+adb shell pm list users
 ```
 
 ```shell
