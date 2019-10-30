@@ -7,7 +7,7 @@ function getdir(){
         file_path=$1
         file_name=$f
 #如果是文件的话，则文件名和后缀相同，故在此过滤
-        if [[ -f ${full_path} ]] && [[ ${files##*.} == "md" ]] && [[ ${files} != "_sidebar.md" ]] && [[ ${files} != "README.md" ]]; then
+        if [[ -f ${full_path} ]] && [[ ${files##*.} == "md" ]] && [[ ${files} != "_sidebar.md" ]] && [[ ${files} != "_coverpage.md" ]] && [[ ${files} != "README.md" ]] && [[ ${files} != "SUMMARY.md" ]]; then
             #arr[$file_path]=arr[$file_path]"\n- ["${files%.*}"]("${file_path/$(pwd)/}"/"${files%.*}")"
             echo "- ["${files%.*}"]("${file_path/$(pwd)/}"/"${files%.*}")">>${file_path}/_sidebar.md
             #echo "filepath:" ${file_path}
@@ -26,4 +26,6 @@ function getdir(){
 }
 
 folder_path=$(pwd)
+echo "">${folder_path}/_sidebar.md
 getdir ${folder_path}
+echo "- [关于](README)">>${folder_path}/_sidebar.md
