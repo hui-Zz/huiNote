@@ -7,7 +7,7 @@ function getdir(){
         file_path=$1
         file_name=$f
 #如果是文件的话，则文件名和后缀相同，故在此过滤
-        if [[ -f ${full_path} ]] && [[ ${files##*.} == "md" ]] && [[ ${files%.*} != "_sidebar" ]]; then
+        if [[ -f ${full_path} ]] && [[ ${files##*.} == "md" ]] && [[ ${files} != "_sidebar.md" ]] && [[ ${files} != "README.md" ]]; then
             #arr[$file_path]=arr[$file_path]"\n- ["${files%.*}"]("${file_path/$(pwd)/}"/"${files%.*}")"
             echo "- ["${files%.*}"]("${file_path/$(pwd)/}"/"${files%.*}")">>${file_path}/_sidebar.md
             #echo "filepath:" ${file_path}
@@ -16,9 +16,9 @@ function getdir(){
         fi
 #如果发现文件夹下还有子文件夹，进行递归遍历
         if [[ -d ${full_path} ]] && [[ ${files} != "assets" ]]; then
-            #echo "- "${files}>>_sidebar.md
             dir_path=${full_path/$(pwd)/}
-            echo "- [上一层]("${dir_path/${files}/}")">${full_path}/_sidebar.md
+            echo "- ["${files}"]("${dir_path}"/)">>${file_path}/_sidebar.md
+            echo "- [[上一层]]("${dir_path/${files}/}")">${full_path}/_sidebar.md
             getdir ${full_path}
         fi
         #echo "------split------"
