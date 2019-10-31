@@ -30,6 +30,7 @@ function getdir() {
                 str=${str}"/"${array[i]}
                 echo "- [[目录"${str}"]]("${str}"/)" >>${full_path}/_sidebar.md
             done
+            echo "---" >${full_path}/_sidebar.md
 
             getdir ${full_path}
         fi
