@@ -1,84 +1,84 @@
 ```ini
-# HexoÅäÖÃ
-## ÎÄµµ: https://hexo.io/docs/configuration.html
-## Ô´Âë: https://github.com/hexojs/hexo/
-## hexo°æ±¾£ºhexo-cli: 1.1.0
+# Hexoé…ç½®
+## æ–‡æ¡£: https://hexo.io/docs/configuration.html
+## æºç : https://github.com/hexojs/hexo/
+## hexoç‰ˆæœ¬ï¼šhexo-cli: 1.1.0
 
-# ÍøÕ¾
-title: Hexo # ÍøÕ¾±êÌâ
-subtitle: # ÍøÕ¾¸±±êÌâ
-description: # ÍøÕ¾ÃèÊö(SEO)
-author: John Doe # ÄúµÄÃû×Ö
-language: # ÍøÕ¾Ê¹ÓÃµÄÓïÑÔ
-timezone: # ÍøÕ¾Ê±Çø
+# ç½‘ç«™
+title: Hexo # ç½‘ç«™æ ‡é¢˜
+subtitle: # ç½‘ç«™å‰¯æ ‡é¢˜
+description: # ç½‘ç«™æè¿°(SEO)
+author: John Doe # æ‚¨çš„åå­—
+language: # ç½‘ç«™ä½¿ç”¨çš„è¯­è¨€
+timezone: # ç½‘ç«™æ—¶åŒº
 
-# ÍøÖ·
-## Èç¹ûÄãµÄÍøÕ¾·ÅÔÚ×ÓÄ¿Â¼ÖĞ£¬Çë½«urlÉèÖÃÎªÎª'http://yoursite.com/child'£¬½«¸ùÄ¿Â¼rootÉèÖÃÎª'/child/'
+# ç½‘å€
+## å¦‚æœä½ çš„ç½‘ç«™æ”¾åœ¨å­ç›®å½•ä¸­ï¼Œè¯·å°†urlè®¾ç½®ä¸ºä¸º'http://yoursite.com/child'ï¼Œå°†æ ¹ç›®å½•rootè®¾ç½®ä¸º'/child/'
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://yoursite.com # ÍøÖ·
-root: / # ÍøÕ¾¸ùÄ¿Â¼
-permalink: :year/:month/:day/:title/ # ÎÄÕÂµÄÓÀ¾ÃÁ´½Ó
-permalink_defaults: # ÓÀ¾ÃÁ´½ÓÖĞ¸÷²¿·ÖµÄÄ¬ÈÏÖµ
+url: http://yoursite.com # ç½‘å€
+root: / # ç½‘ç«™æ ¹ç›®å½•
+permalink: :year/:month/:day/:title/ # æ–‡ç« çš„æ°¸ä¹…é“¾æ¥
+permalink_defaults: # æ°¸ä¹…é“¾æ¥ä¸­å„éƒ¨åˆ†çš„é»˜è®¤å€¼
 
-# Ä¿Â¼
-source_dir: source # ×ÊÔ´ÎÄ¼ş¼Ğ£¬Õâ¸öÎÄ¼ş¼ĞÓÃÀ´´æ·ÅÄÚÈİ¡£
-public_dir: public # ¹«¹²ÎÄ¼ş¼Ğ£¬Õâ¸öÎÄ¼ş¼ĞÓÃÓÚ´æ·ÅÉú³ÉµÄÕ¾µãÎÄ¼ş¡£
-tag_dir: tags # ±êÇ©ÎÄ¼ş¼Ğ
-archive_dir: archives # ¹éµµÎÄ¼ş¼Ğ
-category_dir: categories # ·ÖÀàÎÄ¼ş¼Ğ
-code_dir: downloads/code # include codeÎÄ¼ş¼Ğ
-i18n_dir: :lang # ¹ú¼Ê»¯£¨i18n£©ÎÄ¼ş¼Ğ
-skip_render: # Ìø¹ıÖ¸¶¨ÎÄ¼şµÄäÖÈ¾£¬Äú¿ÉÊ¹ÓÃ glob ±í´ïÊ½À´Æ¥ÅäÂ·¾¶¡£
+# ç›®å½•
+source_dir: source # èµ„æºæ–‡ä»¶å¤¹ï¼Œè¿™ä¸ªæ–‡ä»¶å¤¹ç”¨æ¥å­˜æ”¾å†…å®¹ã€‚
+public_dir: public # å…¬å…±æ–‡ä»¶å¤¹ï¼Œè¿™ä¸ªæ–‡ä»¶å¤¹ç”¨äºå­˜æ”¾ç”Ÿæˆçš„ç«™ç‚¹æ–‡ä»¶ã€‚
+tag_dir: tags # æ ‡ç­¾æ–‡ä»¶å¤¹
+archive_dir: archives # å½’æ¡£æ–‡ä»¶å¤¹
+category_dir: categories # åˆ†ç±»æ–‡ä»¶å¤¹
+code_dir: downloads/code # include codeæ–‡ä»¶å¤¹
+i18n_dir: :lang # å›½é™…åŒ–ï¼ˆi18nï¼‰æ–‡ä»¶å¤¹
+skip_render: # è·³è¿‡æŒ‡å®šæ–‡ä»¶çš„æ¸²æŸ“ï¼Œæ‚¨å¯ä½¿ç”¨ glob è¡¨è¾¾å¼æ¥åŒ¹é…è·¯å¾„ã€‚
 
-# ÎÄÕÂ
-new_post_name: :title.md # ĞÂÎÄÕÂµÄÎÄ¼şÃû³Æ
-default_layout: post # Ô¤Éè²¼¾Ö
-titlecase: false # ½«±êÌâ×ª»»Îªtitle case
-external_link: true # ÔÚĞÂ±êÇ©ÖĞ´ò¿ªÍâ²¿Á´½Ó
-filename_case: 0 # °ÑÎÄ¼şÃû³Æ×ª»»Îª (1) Ğ¡Ğ´»ò (2) ´óĞ´
-render_drafts: false # ÏÔÊ¾²İ¸å
-post_asset_folder: false # Æô¶¯assetÎÄ¼ş¼Ğ
-relative_link: false # °ÑÁ´½Ó¸ÄÎªÓë¸ùÄ¿Â¼µÄÏà¶ÔÎ»Ö·
-future: true # ÏÔÊ¾Î´À´µÄÎÄÕÂ
-highlight: # ´úÂë¿éµÄÉèÖÃ
-  enable: true # Æô¶¯ÉèÖÃ
-  line_number: true # ĞĞºÅ
-  auto_detect: false # ×Ô¶¯¼ì²â
-  tab_replace: # tabÌæ»»
+# æ–‡ç« 
+new_post_name: :title.md # æ–°æ–‡ç« çš„æ–‡ä»¶åç§°
+default_layout: post # é¢„è®¾å¸ƒå±€
+titlecase: false # å°†æ ‡é¢˜è½¬æ¢ä¸ºtitle case
+external_link: true # åœ¨æ–°æ ‡ç­¾ä¸­æ‰“å¼€å¤–éƒ¨é“¾æ¥
+filename_case: 0 # æŠŠæ–‡ä»¶åç§°è½¬æ¢ä¸º (1) å°å†™æˆ– (2) å¤§å†™
+render_drafts: false # æ˜¾ç¤ºè‰ç¨¿
+post_asset_folder: false # å¯åŠ¨assetæ–‡ä»¶å¤¹
+relative_link: false # æŠŠé“¾æ¥æ”¹ä¸ºä¸æ ¹ç›®å½•çš„ç›¸å¯¹ä½å€
+future: true # æ˜¾ç¤ºæœªæ¥çš„æ–‡ç« 
+highlight: # ä»£ç å—çš„è®¾ç½®
+  enable: true # å¯åŠ¨è®¾ç½®
+  line_number: true # è¡Œå·
+  auto_detect: false # è‡ªåŠ¨æ£€æµ‹
+  tab_replace: # tabæ›¿æ¢
   
-# Ö÷Ò³ÉèÖÃ
-# path: Root path for your blogs index page. (Ä¬ÈÏ = '')
-# per_page: Posts displayed per page. (0 = ¹Ø±Õ·ÖÒ³¹¦ÄÜ)
-# order_by: Posts order. (Ä¬ÈÏÇé¿öÏÂ°´ÈÕÆÚ½µĞòÅÅĞò)
-index_generator: # Ë÷ÒıÉú³É
-  path: '' # Â·¾¶
-  per_page: 10 # Ã¿Ò³Õ¹Ê¾ÎÄÕÂÊı
-  order_by: -date # ÅÅĞòÒÀ¾İ
+# ä¸»é¡µè®¾ç½®
+# path: Root path for your blogs index page. (é»˜è®¤ = '')
+# per_page: Posts displayed per page. (0 = å…³é—­åˆ†é¡µåŠŸèƒ½)
+# order_by: Posts order. (é»˜è®¤æƒ…å†µä¸‹æŒ‰æ—¥æœŸé™åºæ’åº)
+index_generator: # ç´¢å¼•ç”Ÿæˆ
+  path: '' # è·¯å¾„
+  per_page: 10 # æ¯é¡µå±•ç¤ºæ–‡ç« æ•°
+  order_by: -date # æ’åºä¾æ®
   
-# ·ÖÀà & ±êÇ©
-default_category: uncategorized # Ä¬ÈÏ·ÖÀà
-category_map: # ·ÖÀà±ğÃû
-tag_map: # ±êÇ©±ğÃû     
+# åˆ†ç±» & æ ‡ç­¾
+default_category: uncategorized # é»˜è®¤åˆ†ç±»
+category_map: # åˆ†ç±»åˆ«å
+tag_map: # æ ‡ç­¾åˆ«å     
 
-# ÈÕÆÚ / Ê±¼ä¸ñÊ½
-## HexoÊ¹ÓÃMoment.jsÀ´½âÎöºÍÏÔÊ¾ÈÕÆÚ
-## Äú¿ÉÒÔ°´ÏÂÃæµÄÎÄµµÃèÊö×Ô¶¨ÒåÈÕÆÚ¸ñÊ½
+# æ—¥æœŸ / æ—¶é—´æ ¼å¼
+## Hexoä½¿ç”¨Moment.jsæ¥è§£æå’Œæ˜¾ç¤ºæ—¥æœŸ
+## æ‚¨å¯ä»¥æŒ‰ä¸‹é¢çš„æ–‡æ¡£æè¿°è‡ªå®šä¹‰æ—¥æœŸæ ¼å¼
 ## http://momentjs.com/docs/#/displaying/format/
-date_format: YYYY-MM-DD # ÈÕÆÚ¸ñÊ½
-time_format: HH:mm:ss # Ê±¼ä¸ñÊ½
+date_format: YYYY-MM-DD # æ—¥æœŸæ ¼å¼
+time_format: HH:mm:ss # æ—¶é—´æ ¼å¼
 
-# ·ÖÒ³ & ±êÇ©
-## ½«per_pageÉèÖÃÎª0¿É½ûÓÃ·ÖÒ³
-per_page: 10 # Ã¿Ò³ÏÔÊ¾µÄÎÄÕÂÁ¿ (0 = ¹Ø±Õ·ÖÒ³¹¦ÄÜ)
-pagination_dir: page # ·ÖÒ³Ä¿Â¼
+# åˆ†é¡µ & æ ‡ç­¾
+## å°†per_pageè®¾ç½®ä¸º0å¯ç¦ç”¨åˆ†é¡µ
+per_page: 10 # æ¯é¡µæ˜¾ç¤ºçš„æ–‡ç« é‡ (0 = å…³é—­åˆ†é¡µåŠŸèƒ½)
+pagination_dir: page # åˆ†é¡µç›®å½•
 
-# ÍØÕ¹
-## ²å¼ş£ºhttps://hexo.io/plugins/ #
-## Ö÷Ìâ£ºhttps://hexo.io/themes/
-theme: landscape # µ±Ç°Ö÷ÌâÃû³Æ¡£ÖµÎªfalseÊ±½ûÓÃÖ÷Ìâ
+# æ‹“å±•
+## æ’ä»¶ï¼šhttps://hexo.io/plugins/ #
+## ä¸»é¢˜ï¼šhttps://hexo.io/themes/
+theme: landscape # å½“å‰ä¸»é¢˜åç§°ã€‚å€¼ä¸ºfalseæ—¶ç¦ç”¨ä¸»é¢˜
 
-# ²¿Êğ
-## ÎÄµµ: https://hexo.io/docs/deployment.html
-deploy: # ²¿Êğ²¿·ÖµÄÉèÖÃ
-  type: # ÍøÕ¾ÀàĞÍ
+# éƒ¨ç½²
+## æ–‡æ¡£: https://hexo.io/docs/deployment.html
+deploy: # éƒ¨ç½²éƒ¨åˆ†çš„è®¾ç½®
+  type: # ç½‘ç«™ç±»å‹
 ```
