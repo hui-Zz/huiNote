@@ -1,7 +1,8 @@
-# Notes
+# hui-Zz💤Note
+
+![logo](/assets/images/Z_Plus.jpg ':size=400x199')
 
 * [Introduction简介](README.md)
-* [Read](Read.md)
 * [Apps](Apps/README.md)
 * [DB](DB/README.md)
   * [Db2](DB/Db2/README.md)
@@ -9,7 +10,8 @@
   * [Oracle](DB/Oracle/README.md)
   * [SQL](DB/SQL/README.md)
   * [SQLServer](DB/SQLServer/README.md)
-* [Git](Git/README.md)
+* [Geek](Geek/README.md)
+  * [Git](Git/README.md)
 * [Java](Java/README.md)
   * [Code](Java/Code/README.md)
   * [IDE](Java/IDE/README.md)
@@ -23,7 +25,7 @@
   * [Spring](JavaEE/Spring/README.md)
   * [SpringMVC](JavaEE/SpringMVC/README.md)
   * [框架](JavaEE/框架/README.md)
-* [Play](Play/README.md)
+* [Mobile](Mobile/README.md)
 * [Study](Study/README.md)
   * [笔记](Study/笔记/README.md)
 * [Sys](Sys/README.md)
