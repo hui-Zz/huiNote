@@ -19,7 +19,7 @@ function getdir() {
             echo "# "${files} >${full_path}/README.md
             # 生成嵌套的侧边结构文件
             current_relative_path=${full_path/$(pwd)/}
-            echo "- ["${files}"]("${current_relative_path}"/)" >>${file_path}/_sidebar.md
+            echo "- [["${files}"]]("${current_relative_path}"/)" >>${file_path}/_sidebar.md
             parent_relative_path=${current_relative_path/${files}/}
 
             echo "- [[目录]](/)" >${full_path}/_sidebar.md
@@ -28,7 +28,7 @@ function getdir() {
             str=""
             for ((i = 0; i < ${#array[@]}; i++)); do
                 str=${str}"/"${array[i]}
-                echo "- [["${str}"]]("${str}"/)" >>${full_path}/_sidebar.md
+                echo "- [[目录"${str}"]]("${str}"/)" >>${full_path}/_sidebar.md
             done
 
             getdir ${full_path}
