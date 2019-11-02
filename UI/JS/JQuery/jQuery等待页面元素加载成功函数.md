@@ -1,4 +1,4 @@
-```JavaScript
+```js
  
 jQuery . fn . wait = function ( func , times , interval ) {
 var _times = times || - 1 , //100次

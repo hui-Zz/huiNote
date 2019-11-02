@@ -1,5 +1,5 @@
 // ** CheckboxSelectionModel add by wuch **
-```JS
+```js
 this.sm = new Ext.grid.CheckboxSelectionModel({
   renderer : function(value, metaData, record) {
     switch (true) {

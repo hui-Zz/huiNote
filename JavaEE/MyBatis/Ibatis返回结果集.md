@@ -6,7 +6,7 @@
 
  # 别名映射->实体类：resultClass
 
- ```XML
+ ```xml
  < select  id = "selectAll"  resultClass = "AppLog" >
      select
        ID  as id ,
@@ -25,7 +25,7 @@
 
  # 别名映射->Map类：resultClass
 
- ```XML
+ ```xml
  < select  id = "selectAll"  resultClass = "java.util.HashMap" >
      select
        ID  as id ,
@@ -47,7 +47,7 @@
 
  # 显式映射->实体类：resultMap
 
- ```XML
+ ```xml
  < resultMap  id = "AppLogResult"  class = "AppLog" >
       < result  property = "id"  column = "ID" />
       < result  property = "type"  column = "Type" />
@@ -66,7 +66,7 @@
 
  # 显式映射->Map类：resultMap
 
- ```XML
+ ```xml
       < resultMap  id = "map-result"  class = "java.util.HashMap" >
          < result  property = "id"  column = "ID" />
       < result  property = "type"  column = "Type" />
@@ -87,7 +87,7 @@
 
  # 无映射
 
- ```XML
+ ```xml
  < select  id = "selectAll3"  resultClass = "java.util.HashMap" >
      select * from APP_LOG
  </ select >
@@ -104,7 +104,7 @@
 xml
  # 返回xml
 
- ```XML
+ ```xml
  < select  id = "selectxml"  parameterClass = "java.lang.String"  resultClass = "xml"  xmlResultName = "log" >
      select
        ID as id,

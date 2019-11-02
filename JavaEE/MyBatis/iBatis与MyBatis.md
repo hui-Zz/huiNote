@@ -10,7 +10,7 @@
 
 
 # 关联查询
-```XML
+```xml
 <resultMap id="myInformation" class="MyBean">  
   <result property="id" column="id" />  
   <result property="name" column="name" />  

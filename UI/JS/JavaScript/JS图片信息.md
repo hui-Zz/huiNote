@@ -1,5 +1,5 @@
 # 获取图片真实宽高
-```JavaScript
+```js
 
 var theImage = new Image();
 var width = theImage.width;

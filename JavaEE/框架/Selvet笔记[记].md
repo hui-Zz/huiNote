@@ -9,7 +9,7 @@
 使用Servlet将作为数据显示的JSP页面与作为处理业务逻辑的JavaBean分离，使它们各自发生变化时，彼此不再相互影响。
 
 
-```Java
+```java
 public class Index extends HttpServlet {
   public void doGet(HttpServletRequest request,HttpServletResponse response) throws ServletException, IOException {
     //获取对象数据

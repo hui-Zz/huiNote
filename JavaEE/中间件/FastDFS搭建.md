@@ -29,6 +29,7 @@ ngx_module_incs="/usr/include/fastdfs /usr/include/fastcommon/"
 CORE_INCS="$CORE_INCS /usr/include/fastdfs /usr/include/fastcommon/"
 ```
 - 修改后再编译安装
+
 ```shell
 ./configure --prefix=/usr/local/nginx-1.15.10 --with-http_stub_status_module --with-http_ssl_module --with-pcre=/usr/local/pcre-8.35
 ./configure --prefix=/usr/local/nginx-1.15.10 --add-module=/usr/local/fastdfs-nginx-module-1.20/src
@@ -55,7 +56,9 @@ user www www;
 vi /etc/fdfs/mod_fastdfs.conf
 url_have_group_name=true
 ```
+
 - nginx 命令
+
 ```shell
 cd /usr/local/nginx/sbin/
 ./nginx 

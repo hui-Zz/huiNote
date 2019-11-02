@@ -1,5 +1,5 @@
 # 网页鼠标点击事件捕获
-```JavaScript
+```js
 document.onmousedown = function(event)
 {
     var btnNum = event.button;
@@ -23,7 +23,7 @@ document.onmousedown = function(event)
 ```
 
 # 网页键盘事件捕获
-```JavaScript
+```js
 
 document.onkeydown = function( event )
 {

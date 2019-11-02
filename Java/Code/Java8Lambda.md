@@ -1,4 +1,4 @@
-```Java
+```java
 // 获取每个事件关联的动态创建者ID列表
 List<Long> dynamicCreateUserIdList = records.stream()
 	.map(e -> {

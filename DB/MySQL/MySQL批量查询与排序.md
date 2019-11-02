@@ -1,4 +1,4 @@
-```mysql
+```sql
 SELECT * FROM 表名
 
 WHERE  id IN ( ID列表  )

@@ -92,7 +92,7 @@ FF中：-moz-border-radius: 5px;
 
 eg:  
 
-```JS
+```js
 var obj=document.getElementById("_td");  
 var text;  
 if(obj.innerText) {  
@@ -142,7 +142,7 @@ var obj=document.getElementById("_tname');
 
 添加事件:  
 
-```JS
+```js
 if(obj.attachEvent) {  
     obj.attachEvent("onchange",function() {//for IE  
         otherfunction(params);//这里可以给其实方法传参，也可以直接调用其它方法  
@@ -156,7 +156,7 @@ if(obj.attachEvent) {
 
 移除事件：  
 
-```JS
+```js
 obj.onclick=null;  
 or  
 if(obj.detachEvent) {  
@@ -204,7 +204,7 @@ clientY+ 滚动条滚去的高度= pageY
 
 ## 8.通过js来触发事件  
 
-```JS
+```js
 <script type="text/javascript">  
     function handerToClick(){  
         var obj=document.getElementById("btn1");  
@@ -249,7 +249,7 @@ IE中onmouseover和onmouseout分别有属性e.fromElement和e.toElement
 
 ## 11.在FF3.0+，Ajax异步问题  
 
-```JS
+```js
 var isFirefox=navigator.userAgent.indexOf("Firefox")>-1  
 
 xhr.onreadystatechange=handler;  
@@ -269,7 +269,7 @@ xhr.onreadystatechange=handler;
 
 两种解决办法，在如果在iframe中只能使用后一种：  
 
-```JS
+```js
 ①  
     insertable:function(){//insertAdjacentHTML  
         if(document.body.insertAdjacentHTML){return;}  
@@ -361,7 +361,7 @@ xhr.onreadystatechange=handler;
 
 ## 13.FF下没有outerHTML问题（除ff都支持）：  
 
-```JS
+```js
 if(!document.body.outerHTML  && typeof(HTMLElement)!="undefined")   
 {  
     HTMLElement.prototype.__defineGetter__("outerHTML",function()   
@@ -390,7 +390,7 @@ if(!document.body.outerHTML  && typeof(HTMLElement)!="undefined")
 
 或者如果只需要取值也可以：  
 
-```JS
+```js
 function outerHTML(obj) {  
     if(obj.outerHTML)  
         return obj.outerHTML;  
@@ -446,7 +446,7 @@ FF:
 
 IE&FF：  
 
-```JS
+```js
 var getClientRect=function() {  
 
     var de;  

@@ -4,7 +4,7 @@
  
 ## 高效率插量插入多条数据
  
-```mysql
+```sql
 INSERT INTO `role` (`id`, `plat_name`, `user_name`, `channel`)
 VALUES
     (1,11,'11_16957','1'),
@@ -16,19 +16,19 @@ VALUES
  
 ## mysql更新语句很简单，更新一条数据的某个字段，一般这样写
  
-```mysql
+```sql
 UPDATE role SET plat_name = 'value' WHERE id = '1';
 ```
  
 ## 如果更新同一字段为同一个值，mysql也很简单，修改下where即可：
  
-```mysql
+```sql
 UPDATE role SET plat_name = 'value' WHERE id in ('1','2','3');
 ```
  
 ## 那如果更新多条数据为不同的值，可能很多人会这样写：
  
-```mysql
+```sql
 foreach ($plat_name_list as $id => $name)
 {
     $sql = "UPDATE role SET `plat_name` = $name WHERE `id` = $id";
@@ -41,7 +41,7 @@ foreach ($plat_name_list as $id => $name)
  
 我们来创建一个test表，好方便下面做测试
  
-```mysql
+```sql
 CREATE TABLE `test` (
   `id` int(11) unsigned NOT NULL AUTO_INCREMENT,
   `name` varchar(200) DEFAULT NULL,
@@ -57,7 +57,7 @@ INSERT INTO `test` (`id`, `name`)
  
 这里使用了case when 这个小技巧来实现批量更新
  
-```mysql
+```sql
 UPDATE test
     SET name = CASE id
         WHEN 1 THEN 3
@@ -72,8 +72,8 @@ WHERE id IN (1,2,3)
 这里的where部分不影响代码的执行，但是会提高sql执行的效率。确保sql语句仅执行需要修改的行数，这里只有3条数据进行更新，而where子句确保只有3行数据执行。
  
 如果更新多个值的话，只需要稍加修改：
- 
-```mysql
+
+```sql
 UPDATE test
     SET name = CASE id
         WHEN 1 THEN 3

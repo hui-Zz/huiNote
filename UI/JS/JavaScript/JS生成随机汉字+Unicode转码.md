@@ -1,4 +1,4 @@
-```JavaScript
+```js
 var a = "";
 var b = "";
 

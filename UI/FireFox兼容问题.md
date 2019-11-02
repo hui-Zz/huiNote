@@ -4,7 +4,7 @@
 
 **需要使用：document.documentElement.scrollTop**
 
-```JS
+```js
 var scroll = (document.body.scrollTop) ? document.body.scrollTop : document.documentElement.scrollTop; //兼容Firefox
 ```
 

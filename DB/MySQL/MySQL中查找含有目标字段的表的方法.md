@@ -1,4 +1,4 @@
-```SQL
+```sql
 SELECT TABLE_SCHEMA,TABLE_NAME
 FROM information_schema.`COLUMNS`
 WHERE COLUMN_NAME='字段名字'

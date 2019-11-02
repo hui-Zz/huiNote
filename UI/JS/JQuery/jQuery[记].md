@@ -8,7 +8,7 @@
 
 
 # 选择器示例
-```jQuery
+```js
 // ID .类 :元素 name :索引 :排除(:已选中的) . 紧邻的下个同辈元素() ( 选中复选框)
 
 $("#id .class :input[name='news'] : eq(0):not(:checked)").next() .attr("checked"," checked ");
@@ -27,13 +27,13 @@ $("table > tbody > tr")
 
 
 # 自动滚动
-``` jQuery
+```js
 document.body.scrollTop = $('.element').offset().top; 
 ```
 
 
 # 滚动到底部或元素触发
-```jQuery
+```js
 
 $(window).scroll(function() {
   if ($(window).scrollTop() == $(document).height() - $(window).height()) {
@@ -48,7 +48,7 @@ $(window).scroll(function() {
 
 
 # 设置jBox生成的iframe中的元素值
-```jQuery
+```js
 top.$.jBox.open('iframe:url', "标题", 810, $(top.document).height() - 240, {
 loaded: function (h) {
 var container = h.find("iframe")[0].contentWindow.document;

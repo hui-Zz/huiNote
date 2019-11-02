@@ -20,7 +20,7 @@
 
 **形成是否函数函数、私有变量的概念。比如：**
 
-```javascript
+```js
 1. var i=3;  
 2. function init(){  
 3.     alert("外层init："+i);  
