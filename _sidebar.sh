@@ -1,8 +1,11 @@
 #!/bin/bash
 
 function getdir() {
-    for files in $(ls $1); do
-        full_path=$1"/"$files
+    # 解决shell脚本遍历带空格的文件/文件夹名
+    for files in `ls "$*" | tr " " "\?"`
+    do
+        files=`tr "\?" " " <<<$files`
+        full_path="$1"/"$files"
         file_path=$1
         file_name=$f
         #如果是文件的话，在此过滤
