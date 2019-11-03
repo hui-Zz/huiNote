@@ -2,9 +2,8 @@
 
 function getdir() {
     # 解决shell脚本遍历带空格的文件/文件夹名
-    for files in `ls "$*" | tr " " "\?"`
-    do
-        files=`tr "\?" " " <<<$files`
+    for files in $(ls "$*" | tr " " "\?"); do
+        files=$(tr "\?" " " <<<$files)
         full_path="$1"/"$files"
         file_path=$1
         file_name=$f
@@ -22,7 +21,11 @@ function getdir() {
             echo "# "${files} >${full_path}/README.md
             # 生成嵌套的侧边结构文件
             current_relative_path=${full_path/$(pwd)/}
-            echo "- [["${files}"]]("${current_relative_path}"/)" >>${file_path}/_sidebar.md
+            # 侧边栏中文件夹链接插入到---行后面，优先排序
+            dir_path="- [**["${files}"]**]("${current_relative_path}"/)"
+            sed -i "/---/ a\\$dir_path" ${file_path}/_sidebar.md
+
+            # 初始化下个目录下的_sidebar结构文件
             parent_relative_path=${current_relative_path/${files}/}
 
             echo "- [[目录]](/)" >${full_path}/_sidebar.md
