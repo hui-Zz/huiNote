@@ -13,6 +13,7 @@ function getdir() {
             # 带空格的文件链接转为%20
             files_rm_space=${files/ /%20}
             echo "- ["${files%.*}"]("${file_path/$(pwd)/}"/"${files_rm_space%.*}")" >>${file_path}/_sidebar.md
+            echo "- ["${files%.*}"]("${file_path/$(pwd)/}"/"${files_rm_space%.*}")" >>${file_path}/README.md
             #echo "filepath:" ${file_path}
             #echo "filename: ${files%.*}"
             #echo "extension: ${files##*.}"
@@ -24,24 +25,28 @@ function getdir() {
             # 生成嵌套的侧边结构文件
             current_relative_path=${full_path/$(pwd)/}
             parent_relative_path=${current_relative_path/${files}/}
-            dir_path="- [**["${files}"]**]("${current_relative_path}"/)"
+            dir_path="- [**["${current_relative_path}"]**]("${current_relative_path}"/)"
             # 侧边栏中文件夹链接处理
             if [[ ${parent_relative_path} == "/" ]]; then
                 echo ${dir_path} >>${file_path}/_sidebar.md
             else
                 # 子文件夹插入到---行后面，优先排序
                 sed -i "/---/ a\\$dir_path" ${file_path}/_sidebar.md
+                sed -i "/---/ a\\$dir_path" ${file_path}/README.md
             fi
             # 初始化下个目录下的_sidebar结构文件
             echo "- [[目录]](/)" >${full_path}/_sidebar.md
+            echo "- [[目录]](/)" >${full_path}/README.md
             # 分割路径到数组
             array=(${parent_relative_path//// })
             str=""
             for ((i = 0; i < ${#array[@]}; i++)); do
                 str=${str}"/"${array[i]}
                 echo "- [[目录"${str}"]]("${str}"/)" >>${full_path}/_sidebar.md
+                echo "- [[目录"${str}"]]("${str}"/)" >>${full_path}/README.md
             done
             echo "---" >>${full_path}/_sidebar.md
+            echo "---" >>${full_path}/README.md
 
             getdir ${full_path}
         fi
