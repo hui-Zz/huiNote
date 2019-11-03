@@ -28,7 +28,7 @@ function getdir() {
             dir_path="- [**["${current_relative_path}"]**](/"${current_relative_path}"/)"
             # 侧边栏中文件夹链接处理
             if [[ ${parent_relative_path} == "/" ]]; then
-                echo ${dir_path} >>${file_path}/_sidebar.md
+                echo "- [**["${files}"]**]("${current_relative_path}"/)" >>${file_path}/_sidebar.md
             else
                 # 子文件夹插入到---行后面，优先排序
                 sed -i "/---/ a\\$dir_path" ${file_path}/_sidebar.md
