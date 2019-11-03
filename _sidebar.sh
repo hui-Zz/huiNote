@@ -25,7 +25,7 @@ function getdir() {
             # 生成嵌套的侧边结构文件
             current_relative_path=${full_path/$(pwd)/}
             parent_relative_path=${current_relative_path/${files}/}
-            dir_path="- [**["${current_relative_path#/}"]**](/"${current_relative_path}"/)"
+            dir_path="- [**["${current_relative_path#/}"]**]("${current_relative_path}"/)"
             # 侧边栏中文件夹链接处理
             if [[ ${parent_relative_path} == "/" ]]; then
                 echo "- [**["${files}"]**]("${current_relative_path}"/)" >>${file_path}/_sidebar.md
