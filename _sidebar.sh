@@ -23,7 +23,7 @@ function getdir() {
             # 生成每个目录默认README.md页面
             echo "# "${files} >${full_path}/README.md
             # 生成嵌套的侧边结构文件
-            current_relative_path=${full_path/$(pwd)\//}
+            current_relative_path=${full_path/$(pwd)'/'/}
             parent_relative_path=${current_relative_path/${files}/}
             dir_path="- [**["${current_relative_path}"]**](/"${current_relative_path}"/)"
             # 侧边栏中文件夹链接处理
