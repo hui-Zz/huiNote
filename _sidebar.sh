@@ -36,7 +36,7 @@ function getdir() {
             fi
             # 初始化下个目录下的_sidebar结构文件
             echo "- [[目录]](/)" >${full_path}/_sidebar.md
-            echo "- [[目录]](/)" >${full_path}/README.md
+            echo "- [[目录]](/)" >>${full_path}/README.md
             # 分割路径到数组
             array=(${parent_relative_path//// })
             str=""
