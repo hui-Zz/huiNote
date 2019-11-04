@@ -1,6 +1,6 @@
-# hui-Zz💤Note
+# hui-Zz💤Note [![Build Status](https://travis-ci.com/hui-Zz/huiNote.svg?branch=master)](https://travis-ci.com/hui-Zz/huiNote)
 
-![logo](/assets/images/Z_Plus.jpg ':size=400x199')
+![logo](/assets/images/Z_Plus.jpg ':size=320x160')
 
 * [Introduction简介](README.md)
 * [Apps](Apps/README.md)
