@@ -1,4 +1,4 @@
-```ini
+```yaml
 # Hexo配置
 ## 文档: https://hexo.io/docs/configuration.html
 ## 源码: https://github.com/hexojs/hexo/
