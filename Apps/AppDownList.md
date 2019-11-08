@@ -13,6 +13,8 @@
 | apache-tomcat             | ✔     | https://tomcat.apache.org/                  |
 | apache-maven              | ✔     | http://maven.apache.org/                    |
 | Internet Download Manager |       |                                             |
+| SoundWire Server          |       |                                             |
+| Twomon PC Program         |       |                                             |
 | -                         |       | -                                           |
 | 火绒                      |       | https://www.huorong.cn/                     |
 | WPS                       |       | https://www.wps.cn/                         |
@@ -24,4 +26,6 @@
 | 有道词典                  |       | http://cidian.youdao.com/                   |
 | 网易云音乐                |       | https://music.163.com/#/download            |
 | 向日葵远程控制            |       | https://sunlogin.oray.com/personal/         |
+| 后羿采集器                |       |                                             |
+| 雷电模拟器小米版          |       |                                             |
 
