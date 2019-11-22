@@ -50,6 +50,11 @@
                                 '<div class="mermaid">' + mermaid.render(lang, code) + "</div>"
                             );
                         }
+                        if (lang === "pdf") {
+                            return (
+                                '<embed src="' + code + '" type="application/pdf" width="100%" height="' + document.body.offsetHeight + 'px" />'
+                            );
+                        }
                         return this.origin.code.apply(this, arguments);
                     }
                 }
