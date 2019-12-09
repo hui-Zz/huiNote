@@ -7,21 +7,24 @@
 # 第一步，打开powershell3.0+，输入以下代码，选择A【全是】
 set-executionpolicy remotesigned -s cu
 # 若要改变安装路径
-#$env:SCOOP='D:\scoop'
-#[environment]::setEnvironmentVariable('SCOOP',$env:SCOOP,'User')
+$env:SCOOP='D:\scoop'
+[environment]::setEnvironmentVariable('SCOOP',$env:SCOOP,'User')
 # 上面成功之后，进入第二步（无法访问则科学上网）
 iex (new-object net.webclient).downloadstring('https://get.scoop.sh')
 
 # 扩展软件库
 scoop bucket add extras
+# 国内软件库
+scoop bucket add dorado https://github.com/h404bi/dorado
+# TortoiseGit
+scoop bucket add wangzq https://github.com/wangzq/scoop-bucket
 
 # 解压软件安装包需要安装：7zip
 # 管理员权限软件需要安装：sudo
 # 提高下载速度，可以先安装上aria2
 #scoop config aria2-enabled
-scoop install aria2
 
-scoop install 7zip sudo git
+scoop install aria2 7zip sudo git
 scoop install terminus typora github
 scoop install flux fastcopy
 scoop install fiddler
