@@ -16,8 +16,6 @@ iex (new-object net.webclient).downloadstring('https://get.scoop.sh')
 scoop bucket add extras
 # 国内软件库
 scoop bucket add dorado https://github.com/h404bi/dorado
-# TortoiseGit
-scoop bucket add wangzq https://github.com/wangzq/scoop-bucket
 
 # 解压软件安装包需要安装：7zip
 # 管理员权限软件需要安装：sudo
