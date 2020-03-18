@@ -51,6 +51,7 @@ scoop install colortool
 
 ---
 ## Chocolatey安装
+[chocolatey](https://chocolatey.org/)
 
 ```shell
 # 使用cmd.exe安装安装Chocolatey
