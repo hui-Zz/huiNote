@@ -9,7 +9,7 @@ set-executionpolicy remotesigned -s cu
 # 若要改变安装路径
 $env:SCOOP='D:\scoop'
 [environment]::setEnvironmentVariable('SCOOP',$env:SCOOP,'User')
-# 上面成功之后，进入第二步（无法访问则科学上网）
+# 上面成功之后，进入第二步（无法访问则科学上网）scoop config proxy [username:password@]host:port
 iex (new-object net.webclient).downloadstring('https://get.scoop.sh')
 
 # 扩展软件库

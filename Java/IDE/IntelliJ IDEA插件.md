@@ -25,11 +25,11 @@
 | JRebel Plugin | 工具                                    | 热部署                                      |
 | Key promoter X                | 辅助                                  | 快捷键提示                                    |
 | LiveEdit                  | 快捷          | 提供现场编辑HTML / CSS / JavaScript            |
-| Lombok                         | 代码 | @Setter,@Getter  不需要编写或生成get/set等方法，很大程度上减少了代码量 |
+| **Lombok**                     | 代码 | @Setter,@Getter  不需要编写或生成get/set等方法，很大程度上减少了代码量 |
 | Maven Helper | 辅助 | Maven 辅助插件 |
 | MetricsReloaded                | 代码                                             | 代码复杂度检查                                               |
 | MultiMarkdown <br> Markdown Navigator | 生成                         | 书写 Markdown 文章                           |
-| MyBatis Log Plugin   | Mybatis  | Mybatis打印SQL日志还原成完整的sql语句和格式化 |
+| **MyBatis Log Plugin** | Mybatis  | Mybatis打印SQL日志还原成完整的sql语句和格式化 |
 | Mybatis plugin       | Mybatis  | Mybatis 代码跳转                              |
 | MyBatisCodeHelperPro | Mybatis  | 功能强大的Mybatis插件 |
 | Nyan progress bar     | 视觉     | 彩虹猫进度条                         |
@@ -37,8 +37,8 @@
 | Power Mode II         | 视觉     | 炫酷特效                             |
 | Rainbow Brackets      | 视觉     | 对各个对称括号进行着色，方便查看     |
 | REST client | 工具 | IDEA内部http文件测试接口 |
-| RestfulToolkit | 快捷 | 快速查找 controller接口 |
-| SequenceDiagram | 工具 | 时序图生成工具 |
+| **RestfulToolkit** | 快捷 | 快速查找 controller接口 |
+| **SequenceDiagram** | 工具 | 时序图生成工具 |
 | SonarLint | 工具 | Sonar分析插件 |
 | stackoverflow | 快捷 | 右键stackoverflow 搜索 |
 | Statistic                      | 代码                                                   | 代码统计                                                     |

@@ -12,6 +12,9 @@
 103.86.70.254 store.steampowered.com
 103.86.70.254 steamcommunity.com
 
+99.232.68.133 githubusercontent.com
+
+
 # OneDrive Start
 134.170.105.24 skyapi.onedrive.live.com
 134.170.105.48 skyapi.onedrive.live.com
