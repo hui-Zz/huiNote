@@ -15,6 +15,7 @@
 | FindBugs-IDEA                  | 代码                                              | 潜在 Bug 检查                                                |
 | Free Mybatis plugin  | Mybatis  | Mybatis 代码跳转 免费                         |
 | GenerateAllSetter | 生成 | new POJO类的快速生成 set 方法 |
+| google java format | 代码 | 使用 google java 格式工具设置源代码格式 |
 | Grep Console          | 视觉     | 自定义设置控制台输出颜色             |
 | GsonFormat                    | 生成                      | 把 JSON 字符串直接实例化成类                        |
 | IDE Features Trainer          | 辅助               | IntelliJ IDEA 官方出的学习辅助插件                 |

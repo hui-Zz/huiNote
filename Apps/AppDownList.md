@@ -7,12 +7,14 @@
 | QQ、TIM                   | https://pc.qq.com/                           |
 | 腾讯桌面整理              | https://pc.qq.com/detail/5/detail_23125.html |
 | 坚果云                    | https://www.jianguoyun.com/s/downloads       |
-| Internet Download Manager |                                              |
-| 雷电模拟器小米版          |                                              |
+| 雷电模拟器                | https://www.ldmnq.com/                       |
 | 迅雷（捆绑软件）          | https://www.xunlei.com/                      |
+| Internet Download Manager |                                              |
+| PortableApps              | https://portableapps.com/zh-cn               |
+| SoundWire Server          |                                              |
 | TeamViewer                |                                              |
 | TortoiseGit               | https://tortoisegit.org/download/            |
-| SoundWire Server          |                                              |
+| VMware                    |                                              |
 
 
 # 新系统应用（可用软件包替代）
@@ -28,7 +30,6 @@
 | IDEA          | ✔     | https://www.jetbrains.com/idea/             |
 | jetty         | ✔     | https://www.eclipse.org/jetty/download.html |
 | Typora        | ✔     | https://www.typora.io/#windows              |
-| VMware        | ✔     |                                             |
 | WPS           | ✔     | https://www.wps.cn/                         |
 | 百度网盘      | ✔     | https://pan.baidu.com/                      |
 | 网易云音乐    | ✔     | https://music.163.com/#/download            |
@@ -37,9 +38,8 @@
 
 # 备用软件
 
-| name              | url                            |
-| ----------------- | ------------------------------ |
-| PortableApps      | https://portableapps.com/zh-cn |
-| 后羿采集器        |                                |
-| Twomon PC Program |                                |
-| spacedesk         |                                |
+| name              | url  |
+| ----------------- | ---- |
+| 后羿采集器        |      |
+| Twomon PC Program |      |
+| spacedesk         |      |
