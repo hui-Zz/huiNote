@@ -12,8 +12,16 @@
 103.86.70.254 store.steampowered.com
 103.86.70.254 steamcommunity.com
 
-99.232.68.133 githubusercontent.com
+#99.232.68.133 githubusercontent.com
+#199.232.68.133 githubusercontent.com
+199.232.69.194 githubusercontent.com
 
+# Added by Docker Desktop
+172.16.30.79 host.docker.internal
+172.16.30.79 gateway.docker.internal
+# To allow the same kube context to work on the host and the container:
+127.0.0.1 kubernetes.docker.internal
+# End of section
 
 # OneDrive Start
 134.170.105.24 skyapi.onedrive.live.com

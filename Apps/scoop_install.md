@@ -9,8 +9,12 @@ set-executionpolicy remotesigned -s cu
 # 若要改变安装路径
 $env:SCOOP='D:\scoop'
 [environment]::setEnvironmentVariable('SCOOP',$env:SCOOP,'User')
+
 # 上面成功之后，进入第二步（无法访问则科学上网）scoop config proxy [username:password@]host:port
 iex (new-object net.webclient).downloadstring('https://get.scoop.sh')
+
+Invoke-Expression (New-Object System.Net.WebClient).DownloadString('https://get.scoop.sh')
+iwr -useb get.scoop.sh | iex
 
 # 扩展软件库
 scoop bucket add extras
@@ -50,22 +54,3 @@ scoop install colortool
 ```
 
 ---
-## Chocolatey安装
-[chocolatey](https://chocolatey.org/)
-
-```shell
-# 使用cmd.exe安装安装Chocolatey
-@"%SystemRoot%\System32\WindowsPowerShell\v1.0\powershell.exe" -NoProfile -InputFormat None -ExecutionPolicy Bypass -Command "iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))" && SET "PATH=%PATH%;%ALLUSERSPROFILE%\chocolatey\bin"
-
-# 使用PowerShell.exe安装Chocolatey
-Set-ExecutionPolicy Bypass -Scope Process -Force; iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))
-
-# 安装GUI
-choco install chocolateygui
-
-#choco install ConEmu
-
-# 安装第三方终端FluentTerminal
-#choco install fluent-terminal
-#choco install terminus
-```

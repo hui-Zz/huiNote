@@ -3,7 +3,7 @@
 | Eclipse          |        | 4.3(Kepler) | 4.4(Luna)、4.5(Mars) | 4.6(Neon) |
 | Maven            | 3.1.1+ | 3.2.1-3.2.5 |        3.3.x+        |           |
 | Spring           |  3.x   |     4.x     |                      |           |
-| Tomcat           |        |      6      |         7、8         |           |
+| Tomcat           |        |      6      |         7、8         |     9     |
 | Jetty            |        |             |         9.2          |   9.3+    |
 | sonar            |        |             |         5.5          |   5.6+    |
 |                  |        |             |                      |           |
