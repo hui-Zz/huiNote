@@ -5,16 +5,18 @@
 
 ```shell
 # 第一步，打开powershell3.0+，输入以下代码，选择A【全是】
-set-executionpolicy remotesigned -s cu
+Set-ExecutionPolicy RemoteSigned -scope CurrentUser
 # 若要改变安装路径
 $env:SCOOP='D:\scoop'
 [environment]::setEnvironmentVariable('SCOOP',$env:SCOOP,'User')
 
 # 上面成功之后，进入第二步（无法访问则科学上网）scoop config proxy [username:password@]host:port
-iex (new-object net.webclient).downloadstring('https://get.scoop.sh')
+scoop config proxy 127.0.0.1:1080
+scoop config proxy 127.0.0.1:10809
 
 Invoke-Expression (New-Object System.Net.WebClient).DownloadString('https://get.scoop.sh')
 iwr -useb get.scoop.sh | iex
+# 旧的：iex (new-object net.webclient).downloadstring('https://get.scoop.sh')
 
 # 扩展软件库
 scoop bucket add extras

@@ -9,9 +9,11 @@
 | 坚果云                    | https://www.jianguoyun.com/s/downloads       |
 | 雷电模拟器                | https://www.ldmnq.com/                       |
 | 迅雷（捆绑软件）          | https://www.xunlei.com/                      |
-| Internet Download Manager |                                              |
+| Internet Download Manager | internet_download_manager_6.36.7.zip         |
+| Navicat Premium           | Navicat Premium v15.0.19.zip                 |
 | PortableApps              | https://portableapps.com/zh-cn               |
 | SoundWire Server          |                                              |
+| Spacedesk DRIVER          |                                              |
 | TeamViewer                |                                              |
 | TortoiseGit               | https://tortoisegit.org/download/            |
 | VMware                    |                                              |
