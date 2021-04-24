@@ -1,0 +1,15 @@
+# JavaScript
+- [[目录]](/)
+- [[目录/UI]](/UI/)
+- [[目录/UI/JS]](/UI/JS/)
+---
+- [JavaScript[记]](/UI/JS/JavaScript/JavaScript[记])
+- [js判断中文字符](/UI/JS/JavaScript/js判断中文字符)
+- [JS图片信息](/UI/JS/JavaScript/JS图片信息)
+- [JS循环调用接口](/UI/JS/JavaScript/JS循环调用接口)
+- [JS快速打印一个五分制的评分情况](/UI/JS/JavaScript/JS快速打印一个五分制的评分情况)
+- [JS生成随机6位数字](/UI/JS/JavaScript/JS生成随机6位数字)
+- [JS生成随机汉字+Unicode转码](/UI/JS/JavaScript/JS生成随机汉字+Unicode转码)
+- [JS网页定位](/UI/JS/JavaScript/JS网页定位)
+- [JS鼠标键盘事件](/UI/JS/JavaScript/JS鼠标键盘事件)
+- [从一行CSS调试代码中学到的JavaScript知识 - OurJS](/UI/JS/JavaScript/从一行CSS调试代码中学到的JavaScript知识%20- OurJS)

@@ -1,0 +1,7 @@
+# Update
+- [[目录]](/)
+- [[目录/DB]](/DB/)
+---
+- [MySQL中Insert带有Where条件](/DB/Update/MySQL中Insert带有Where条件)
+- [MySQL批量更新多条记录的方法](/DB/Update/MySQL批量更新多条记录的方法)
+- [MySQL批量更新多表外键关联](/DB/Update/MySQL批量更新多表外键关联)

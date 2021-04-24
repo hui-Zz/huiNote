@@ -1,0 +1,3 @@
+|    Oracle   |   SQLServer   |
+|   :------:  |  :---------:  |
+|   decode    |       case        |

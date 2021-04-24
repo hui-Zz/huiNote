@@ -1,0 +1,5 @@
+# 中间件
+- [[目录]](/)
+- [[目录/JavaEE]](/JavaEE/)
+---
+- [FastDFS搭建](/JavaEE/中间件/FastDFS搭建)

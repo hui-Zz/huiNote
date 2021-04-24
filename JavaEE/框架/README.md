@@ -1,0 +1,9 @@
+# 框架
+- [[目录]](/)
+- [[目录/JavaEE]](/JavaEE/)
+---
+- [Java bean[记]](/JavaEE/框架/Java%20bean[记])
+- [MVC框架优缺点[记]](/JavaEE/框架/MVC框架优缺点[记])
+- [Quartz和Spring Task定时任务的简单应用和比较](/JavaEE/框架/Quartz和Spring%20Task定时任务的简单应用和比较)
+- [Selvet笔记[记]](/JavaEE/框架/Selvet笔记[记])
+- [Spring[记]](/JavaEE/框架/Spring[记])
