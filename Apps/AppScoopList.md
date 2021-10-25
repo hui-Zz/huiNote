@@ -1,20 +1,20 @@
 7zip (v:19.00) [main]
 
-adb (v:31.0.2) [main]
+adb (v:31.0.3) [main]
 
-anydesk (v:6.3.2) [extras]
+anydesk (v:6.3.3) [extras]
 
-aria2 (v:1.35.0-1) [main]
+aria2 (v:1.36.0-1) [main]
 
-autohotkey-installer (v:1.1.33.09) [extras]
+autohotkey-installer (v:1.1.33.10) [extras]
 
 BaiduNetdisk (v:7.0.10.2) [dodorz]
 
 colortool (v:1904.29002) [main]
 
-curl (v:7.78.0) [main]
+curl (v:7.78.0_5) [main]
 
-dandanplay (v:11.5.1) [dorado]
+dandanplay (v:11.5.2) [dorado]
 
 dark (v:3.11.2) [main]
 
@@ -22,7 +22,7 @@ diskgenius (v:5.4.2.1239) [extras]
 
 dismplusplus (v:10.1.1001.10) [dodorz]
 
-ditto (v:3.24.184.0) [extras]
+ditto (v:3.24.214.0) [extras]
 
 eclipse-jee (v:2021-06) [extras]
 
@@ -34,9 +34,9 @@ flux (v:4.120) [extras]
 
 format-factory (v:5.5.0.0) [extras]
 
-git (v:2.32.0.windows.2) [main]
+git (v:2.33.1.windows.1) [main]
 
-github (v:2.9.0) [extras]
+github (v:2.9.4) [extras]
 
 googlechrome (v:87.0.4280.88) [extras]
 
@@ -54,37 +54,37 @@ irfanview (v:4.58) [extras]
 
 jd-gui (v:1.6.6) [dorado]
 
-keepass (v:2.48.1) [extras]
+keepass (v:2.49) [extras]
 
-lessmsi (v:1.8.1) [main]
+lessmsi (v:1.8.2) [main]
 
 listary (v:5.00.2843) [extras]
 
-maven (v:3.8.1) [main]
+maven (v:3.8.2) [main]
 
-mongodb (v:5.0.2) [main]
+mongodb (v:5.0.3-rc0) [main]
 
 mongodb-compass-community (v:1.21.2) [extras]
 
 navicat (v:12.0.22) [bear]
 
-neteasemusic (v:2.9.1.199099) [dorado]
+neteasemusic (v:2.9.3.199282) [dorado]
 
-nginx (v:1.21.1) [main]
+nginx (v:1.21.3) [main]
 
-nodejs (v:16.6.1) [main]
+nodejs (v:16.11.1) [main]
 
 pip-tool (v:1.1.2) [extras]
 
-postman (v:8.10.0) [extras]
+postman (v:8.12.1) [extras]
 
-potplayer (v:) [extras]
+potplayer (v:1.7.16291) [bear]
 
 PowerToys (v:0.21.1) [extras]
 
-python (v:3.9.6) [main]
+python (v:3.10.0) [main]
 
-qbittorrent (v:4.3.7) [extras]
+qbittorrent (v:4.3.8) [extras]
 
 qqplayer (v:4.6.3.1104) [dorado]
 
@@ -94,9 +94,9 @@ redis-desktop-manager (v:2021.7) [dorado]
 
 robo3t (v:1.4.2) [extras]
 
-runany (v:5.7.5) [dorado]
+runany (v:5.7.7) [dorado]
 
-scrcpy (v:1.18) [main]
+scrcpy (v:1.19) [main]
 
 scrcpy-gui (v:1.5.1) [dorado]
 
@@ -110,27 +110,29 @@ sudo (v:0.2020.01.26) [main]
 
 SumatraPDF (v:3.3.3) [extras]
 
+todesk (v:3.3.0) [dorado]
+
 teamviewer (v:15.5.3) [extras]
 
-telegram (v:2.7.3) [extras]
+telegram (v:3.1.8) [extras]
 
 tomcat (v:10.0.10) [extras]
 
-typora (v:0.11.2) [extras]
+typora (v:0.11.13) [extras]
 
 utools (v:2.1.0) [dorado]
 
-v2ray (v:4.40.1) [main]
+v2ray (v:4.42.2) [main]
 
 v2rayn (v:4.20) [extras]
 
 vim (v:8.2.2824) [main]
 
-vscode (v:1.59.0) [extras]
+vscode (v:1.61.1) [extras]
 
 WeChat (v:3.3.0) [dodorz]
 
-windows-terminal (v:1.9.1942.0) [extras]
+windows-terminal (v:1.10.2714.0) [extras]
 
 wixtoolset (v:3.11.2) [main]
 
