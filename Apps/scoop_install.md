@@ -1,65 +1,83 @@
 ## scoop安装
 
-- 检查powershell版本 should be >= 5.0
-  - `$PSVersionTable.PSVersion.Major`  # 查看Powershell版本
-  - `$PSVersionTable.CLRVersion.Major`  # 查看.NET Framework版本
+### 【步骤一：安装环境检查】
+
+- Windows7以上
+- PowerShell版本 >= 5.0
+  - `$PSVersionTable.PSVersion.Major`  查看Powershell版本
+- .NET Framework版本 >= 4
+  - `$PSVersionTable.CLRVersion.Major`  查看.NET Framework版本
+
+### 【步骤二：】更改PowerShell脚本执行策略
+
+打开powershell3.0+，输入以下代码，选择A【全是】
+```shell
+Set-ExecutionPolicy RemoteSigned -scope CurrentUser
+```
+
+### 【步骤三：安装scoop】
 
 ```shell
-# 第一步，打开powershell3.0+，输入以下代码，选择A【全是】
-Set-ExecutionPolicy RemoteSigned -scope CurrentUser
-# 若要改变安装路径
+# 若要改变软件默认安装路径
 $env:SCOOP='D:\scoop'
 [environment]::setEnvironmentVariable('SCOOP',$env:SCOOP,'User')
 
-# 上面成功之后，进入第二步（无法访问则科学上网）scoop config proxy [username:password@]host:port
-scoop config proxy 127.0.0.1:1080
-scoop config proxy 127.0.0.1:10809
+# 上面成功之后，进入下载安装scoop（如果出现无法访问的红字则需要科学上网）
+# 设置代理：scoop config proxy [username:password@]host:port
+# scoop config proxy 127.0.0.1:1080
 
+# 【下载安装scoop】
 Invoke-Expression (New-Object System.Net.WebClient).DownloadString('https://get.scoop.sh')
 iwr -useb get.scoop.sh | iex
-# 旧的：iex (new-object net.webclient).downloadstring('https://get.scoop.sh')
+
+# 旧的安装：iex (new-object net.webclient).downloadstring('https://get.scoop.sh')
+
 ```
 
-### 安装软件
+### 【步骤四：安装基础必要软件】
+
+```shell
+scoop install 7zip sudo git
+```
+- 解压软件安装包需要安装：7zip
+- 管理员权限软件需要安装：sudo
+- 下载第三方开源软件需要：git
+
+- 提高下载速度，可以先安装上aria2
+  - `scoop install aria2`
+    - 下载经常失败，外网不稳定可以关闭aria2
+    - `scoop config aria2-enabled False`
+  - 查看aria2开关状态
+  - `scoop config aria2-enabled`
+
+### 安装软件库和软件
 
 ```shell
 # 扩展软件库
 scoop bucket add main
 scoop bucket add extras
 scoop bucket add bear https://github.com/AStupidBear/scoop-bear
-# 国内软件库
+# 国内软件软件库
 scoop bucket add apps https://gitee.com/kkzzhizhou/scoop-apps
 scoop bucket add dorado https://github.com/chawyehsu/dorado
 scoop bucket add dodorz https://github.com/dodorz/scoop
 scoop bucket add echo https://github.com/echoiron/echo-scoop
-# 浏览器
+# 安装指定某个库里面的软件：chrome浏览器（同名的情况）
 scoop bucket add 42wim https://github.com/42wim/scoop-bucket.git
 scoop install 42wim/googlechrome-dev
-
-# 解压软件安装包需要安装：7zip
-# 管理员权限软件需要安装：sudo
-# 提高下载速度，可以先安装上aria2
-#scoop config aria2-enabled
-
-scoop install aria2 7zip sudo git
-scoop install terminus typora github
-scoop install flux fastcopy
-scoop install fiddler
-
+# 安装一些老版本软件
 scoop bucket add versions
 scoop install tomcat7 mysql56
-
-scoop bucket add jetbrains
-scoop install IntelliJ-IDEA-Ultimate
 ```
 
-### 改变全局安装路径
+本人的scoop软件列表 [AppScoopList](Apps/AppScoopList.md)
+
+### 指定使用全局安装路径
+
 ```shell
 $env:SCOOP_GLOBAL='D:\apps'
 [environment]::setEnvironmentVariable('SCOOP_GLOBAL',$env:SCOOP_GLOBAL,'Machine')
 scoop install -g <app>
-
-scoop install -g idea-ultimate
 ```
 ### 更换 PowerShell 的主题颜色
 ```shell
@@ -74,7 +92,7 @@ scoop install colortool
 alias       Manage scoop aliases # 管理指令的替身
 bucket      Manage Scoop buckets # 管理软件仓库
 cache       Show or clear the download cache # 查看与管理缓存
-checkup     Check for potential problems # 做个体检
+checkup     Check for potential problems # 做个体检，检查问题
 cleanup     Cleanup apps by removing old versions # 清理缓存与旧版本软件包
 config      Get or set configuration values # 配置Scoop
 create      Create a custom app manifest # 创建自定义软件包
