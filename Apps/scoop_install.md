@@ -1,6 +1,6 @@
-## scoop安装
+# scoop安装
 
-### 【步骤一：安装环境检查】
+## 【步骤一：安装环境检查】
 
 - Windows7以上
 - PowerShell版本 >= 5.0
@@ -8,14 +8,14 @@
 - .NET Framework版本 >= 4
   - `$PSVersionTable.CLRVersion.Major`  查看.NET Framework版本
 
-### 【步骤二：】更改PowerShell脚本执行策略
+## 【步骤二：】更改PowerShell脚本执行策略
 
 打开powershell3.0+，输入以下代码，选择A【全是】
 ```shell
 Set-ExecutionPolicy RemoteSigned -scope CurrentUser
 ```
 
-### 【步骤三：安装scoop】
+## 【步骤三：安装scoop】
 
 ```shell
 # 若要改变软件默认安装路径
@@ -34,7 +34,7 @@ iwr -useb get.scoop.sh | iex
 
 ```
 
-### 【步骤四：安装基础必要软件】
+## 【步骤四：安装基础必要软件】
 
 ```shell
 scoop install 7zip sudo git
@@ -50,7 +50,7 @@ scoop install 7zip sudo git
   - 查看aria2开关状态
   - `scoop config aria2-enabled`
 
-### 安装软件库和软件
+## 安装软件库和软件
 
 ```shell
 # 扩展软件库
@@ -72,21 +72,21 @@ scoop install tomcat7 mysql56
 
 本人的scoop软件列表 [AppScoopList](Apps/AppScoopList.md)
 
-### 指定使用全局安装路径
+## 指定使用全局安装路径
 
 ```shell
 $env:SCOOP_GLOBAL='D:\apps'
 [environment]::setEnvironmentVariable('SCOOP_GLOBAL',$env:SCOOP_GLOBAL,'Machine')
 scoop install -g <app>
 ```
-### 更换 PowerShell 的主题颜色
+## 更换 PowerShell 的主题颜色
 ```shell
 scoop install colortool
 # https://github.com/JanDeDobbeleer/oh-my-posh
 ```
 
 ---
-### scoop help 帮助一览
+## scoop help 帮助一览
 
 ```shell
 alias       Manage scoop aliases # 管理指令的替身
