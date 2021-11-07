@@ -14,7 +14,7 @@
 | PortableApps              | https://portableapps.com/zh-cn               |
 | SoundWire Server          |                                              |
 | Spacedesk DRIVER          |                                              |
-| TeamViewer                |                                              |
+|                           |                                              |
 | TortoiseGit               | https://tortoisegit.org/download/            |
 | VMware                    |                                              |
 
