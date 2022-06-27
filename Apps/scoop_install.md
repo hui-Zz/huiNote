@@ -37,9 +37,9 @@ iwr -useb get.scoop.sh | iex
 ## 【步骤四：安装基础必要软件】
 
 ```shell
-scoop install 7zip sudo git
+scoop install 7zip sudo git innounp
 ```
-- 解压软件安装包需要安装：7zip
+- 解压软件安装包需要安装：7zip innounp
 - 管理员权限软件需要安装：sudo
 - 下载第三方开源软件需要：git
 
@@ -58,16 +58,20 @@ scoop bucket add main
 scoop bucket add extras
 scoop bucket add bear https://github.com/AStupidBear/scoop-bear
 # 国内软件软件库
-scoop bucket add apps https://gitee.com/kkzzhizhou/scoop-apps
 scoop bucket add dorado https://github.com/chawyehsu/dorado
 scoop bucket add dodorz https://github.com/dodorz/scoop
 scoop bucket add echo https://github.com/echoiron/echo-scoop
+scoop bucket add scoop-zapps https://github.com/kkzzhizhou/scoop-zapps
+scoop bucket add scoop-xkyii https://github.com/xkyii/scoop-xkyii
 # 安装指定某个库里面的软件：chrome浏览器（同名的情况）
 scoop bucket add 42wim https://github.com/42wim/scoop-bucket.git
 scoop install 42wim/googlechrome-dev
 # 安装一些老版本软件
 scoop bucket add versions
 scoop install tomcat7 mysql56
+# Java开发环境
+scoop bucket add tomato https://github.com/zhoujin7/tomato.git
+scoop install OracleJDK8 maven tomcat nginx postman Navicat-Premium-chs
 ```
 
 本人的scoop软件列表 [AppScoopList](Apps/AppScoopList.md)
