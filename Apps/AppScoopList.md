@@ -1,46 +1,54 @@
-7zip (v:19.00) [main]
+7zip (v:22.00) [main]
 
-adb (v:31.0.3) [main]
+adb (v:33.0.2) [main]
 
-anydesk (v:6.3.3) [extras]
+~~anydesk (v:7.0.10) [extras]~~
 
 aria2 (v:1.36.0-1) [main]
 
-autohotkey-installer (v:1.1.33.10) [extras]
+autohotkey-installer (v:1.1.34.03) [extras]
 
 BaiduNetdisk (v:7.0.10.2) [dodorz]
 
 colortool (v:1904.29002) [main]
 
-curl (v:7.79.1_4) [main]
+curl (v:7.83.1_7) [main]
 
-dandanplay (v:12.0.0) [dorado]
+dandanplay (v:12.3.4) [dorado]
 
 dark (v:3.11.2) [main]
 
-diskgenius (v:5.4.2.1239) [extras]
+dingtalk (v:6.5.20.6139101) [dorado]
 
-dismplusplus (v:10.1.1001.10) [dodorz]
+diskgenius (v:5.4.3.1342) [extras]
+
+dismplusplus (v:10.1.1002.1) [dodorz]
 
 ditto (v:3.24.214.0) [extras]
 
-eclipse-jee (v:2021-09) [extras]
+~~eclipse-jee (v:2022-06) [extras]~~
 
-fastcopy (v:3.92) [extras]
+ElasticSearch (v:8.2.3) [apps]
 
-fiddler (v:5.0.20204.45441) [extras]
+fastcopy (v:4.1.7) [extras]
+
+ffmpeg (v:5.0.1) [main]
+
+fiddler (v:5.0.20211.51073) [extras]
+
+FileLocatorPro (v:8.2.2766.1) [apps]
 
 flux (v:4.120) [extras]
 
-geekuninstaller (v:1.4.8.145) [apps]
+geekuninstaller (v:1.4.9.151) [apps]
 
 format-factory (v:5.5.0.0) [extras]
 
-git (v:2.33.1.windows.1) [main]
+git (v:2.36.0.windows.1) [main]
 
-github (v:2.9.4) [extras]
+github (v:3.0.2) [extras]
 
-googlechrome-dev_42wim (v:97.0.4688.3) [apps]
+googlechrome-dev (v:105.0.5137.4) [apps]
 
 gow (v:0.8.0) [main]
 
@@ -50,55 +58,63 @@ idea-ultimate-eap (v:211.7142.13) [extras]
 
 innounp (v:0.50) [main]
 
-irfanview (v:4.58) [extras]
+irfanview (v:4.60) [extras]
 
 jd-gui (v:1.6.6) [dorado]
 
-keepass (v:2.49) [extras]
+keepass (v:2.51.1) [extras]
 
-lessmsi (v:1.9.0) [main]
+lessmsi (v:1.10.0) [main]
 
-listary (v:5.00.2843) [extras]
+lx-music (v:1.22.0) [apps]
 
-maven (v:3.8.3) [main]
+maven (v:3.8.6) [main]
 
-mongodb (v:5.1.0-rc3) [main]
+mongodb (v:5.3.2) [main]
 
 mongodb-compass-community (v:1.21.2) [extras]
 
 navicat (v:12.0.22) [bear]
 
-neteasemusic (v:2.9.5.199424) [dorado]
+neteasemusic (v:2.9.9.199909) [dorado]
 
-nginx (v:1.21.4) [main]
+nginx (v:1.23.0) [main]
 
-nodejs (v:16.11.1) [main]
+nodejs (v:18.0.0) [main]
 
-OracleJDK8 (v:8u311) [apps]
+Obsidian (v:0.14.15) [apps]
+
+oCam
+
+OracleJDK8 (v:8u321) [apps]
 
 pip-tool (v:1.1.2) [extras]
 
-postman (v:9.1.3) [extras]
+~~postman (v:9.19.0) [extras]~~
 
 potplayer (v:1.7.16291) [bear]
 
-PowerToys (v:0.49.0) [extras]
+PowerToys (v:0.59.1) [extras]
 
-python (v:3.10.0) [main]
+python (v:3.10.5) [main]
 
-qbittorrent (v:4.3.9) [extras]
+qbittorrent (v:4.4.3.1) [extras]
+
+qqmusic (v:1851) [apps]
 
 qqplayer (v:4.6.3.1104) [dorado]
 
-qtscrcpy (v:1.7.1) [dorado]
+qtscrcpy (v:2.0.0) [dorado]
 
-redis-desktop-manager (v:2021.7) [dorado]
+redis-desktop-manager (v:2022.4) [dorado]
 
 robo3t (v:1.4.4) [extras]
 
-runany (v:5.7.7) [dorado]
+runany (v:5.8.2) [dorado]
 
-scrcpy (v:1.19) [main]
+scoop-search-multisource (v:0.1.20220411) [apps]
+
+scrcpy (v:1.24) [main]
 
 scrcpy-gui (v:1.5.1) [dorado]
 
@@ -110,33 +126,35 @@ sublime-text (v:3211) [extras]
 
 sudo (v:0.2020.01.26) [main]
 
-SumatraPDF (v:3.3.3) [extras]
+SumatraPDF (v:3.4.6) [extras]
 
-todesk (v:3.3.3) [dorado]
+tencent-meeting (v:3.8.6.428) [scoop-xkyii]
+
+todesk (v:4.3.1) [dorado]
 
 telegram (v:3.1.8) [extras]
 
-tomcat (v:10.0.12) [extras]
+tomcat (v:10.0.22) [extras]
 
-typora (v:0.11.15) [extras]
+typora (v:1.3.8) [extras]
 
-utools (v:2.4.3) [dorado]
+utools (v:2.6.3) [dorado]
 
-v2ray (v:4.43.0) [main]
+~~v2ray (v:4.44.0) [main]~~
 
-v2rayn (v:4.20) [extras]
+~~v2rayn (v:4.20) [extras]~~
 
 vim (v:8.2.2824) [main]
 
-vscode (v:1.62.0) [extras]
+vscode (v:1.68.1) [extras]
 
-WeChat (v:3.3.5) [dodorz]
+WeChat (v:3.7.0) [dodorz]
 
-windows-terminal (v:1.11.2921.0) [extras]
+windows-terminal (v:1.13.11431.0) [extras]
 
 wixtoolset (v:3.11.2) [main]
 
 wpsoffice_krproject (v:11.2.0.9070) [apps]
 
-XnViewClassic (v:2.50.2) [dodorz]
+XnViewClassic (v:2.51.0) [dodorz]
 
