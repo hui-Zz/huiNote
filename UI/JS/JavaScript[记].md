@@ -50,3 +50,29 @@ switch (true) {
     return "";
 }
 ```
+# js逻辑运算符技巧
+**在JS里，任何类型的值都可以转换成逻辑布尔值（手动转换使用【!!】或【Boolean()】）**
+
+| 对象           | true     |
+| :------------- | -------- |
+| **非空字符串** | **true** |
+| **非0数字**    | **true** |
+|                |          |
+| ""             | false    |
+| null           | false    |
+| undefined      | false    |
+| NaN            | false    |
+| 0              | false    |
+
+## 【几乎所有语言中||和&&都遵循短路算法，&&中第一个表达式为假就不会去处理第二个表达式，而||正好相反。】
+
+## <u>利用运算符精简if和switch代码：</u>
+[![js逻辑运算符技巧](../../assets/images/js/ca3f1fe9-5f3e-450e-9e05-bcab1165db2a.jpg)]()
+成长速度与箭头相关联，5速度=1箭头，以此类推：
+```js
+var add_level = (add_step==5 && 1) || (add_step==10 && 2) || (add_step==12 && 3) || (add_step==15 && 4) || 0;
+```
+
+```js
+var add_level={'5':1,'10':2,'12':3,'15':4}[add_step] || 0; 
+```
