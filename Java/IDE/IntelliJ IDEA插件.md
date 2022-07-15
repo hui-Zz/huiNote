@@ -24,7 +24,7 @@
 | FindBugs-IDEA                         | 代码     |      | 潜在 Bug 检查                                                |
 | Free Mybatis plugin                   | Mybatis  |      | Mybatis 代码跳转 免费                                        |
 | GenerateAllSetter                     | 生成     |  2   | new POJO类的快速生成 set 方法                                |
-| Git Auto Pull                         | 代码     |      | 在Push前自动Pull，避免不必要的代码冲突                       |
+| Git Auto Pull                         | 代码     |  0   | 在Push前自动Pull，避免不必要的代码冲突                       |
 | google java format                    | 代码     |      | 使用 google java 格式工具设置源代码格式                      |
 | Grep Console                          | 视觉     |  2   | 自定义设置控制台输出颜色                                     |
 | GsonFormat                            | 生成     |  2   | 把 JSON 字符串直接实例化成类                                 |
@@ -44,17 +44,17 @@
 | MetricsReloaded                       | 代码     |      | 代码复杂度检查                                               |
 | Momo Code Sec Inspector               | 代码     |  2   | Java静态代码安全审计插件                                     |
 | MultiMarkdown <br> Markdown Navigator | 生成     |      | 书写 Markdown 文章                                           |
-| MyBatis Log Plugin                    | Mybatis  |  0   | Mybatis打印SQL日志还原成完整的sql语句和格式化                |
+| MyBatis Log Plugin                    | Mybatis  |  1   | Mybatis打印SQL日志还原成完整的sql语句和格式化                |
 | Mybatis plugin                        | Mybatis  |  1   | Mybatis 代码跳转                                             |
-| MyBatisCodeHelperPro                  | Mybatis  |  0   | 功能强大的Mybatis插件                                        |
+| MyBatisCodeHelperPro                  | Mybatis  |  1   | 功能强大的Mybatis插件                                        |
 | Nyan progress bar                     | 视觉     |  2   | 彩虹猫进度条                                                 |
 | POJO to JSON                          | 生成     |      | 对象转JSON工具                                               |
 | Power Mode II                         | 视觉     |  2   | 炫酷特效                                                     |
 | Quick Notes                           | 工具     |      | 快捷便签                                                     |
 | Rainbow Brackets                      | 视觉     |  0   | 对各个对称括号进行着色，方便查看                             |
 | REST client                           | 工具     |      | IDEA内部http文件测试接口                                     |
-| RestfulToolkit                        | 快捷     |  0   | 快速查找 controller接口                                      |
-| SequenceDiagram                       | 工具     |  2   | 时序图生成工具                                               |
+| RestfulToolkit                        | 快捷     |  3   | 快速查找 controller接口                                      |
+| SequenceDiagram                       | 工具     |  1   | 时序图生成工具                                               |
 | SonarLint                             | 工具     |      | Sonar分析插件                                                |
 | stackoverflow                         | 快捷     |  2   | 右键stackoverflow 搜索                                       |
 | Statistic                             | 代码     |      | 代码统计                                                     |
