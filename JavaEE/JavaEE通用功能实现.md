@@ -16,3 +16,4 @@
 | 微信支付        | 支付证书、接口回调             |                    |
 | 微信分享        |                                |                    |
 | 日志监控        | ELK、log4j2                    | logback            |
+| 第三方登录      | https://justauth.wiki          |                    |

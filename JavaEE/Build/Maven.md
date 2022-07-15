@@ -1,6 +1,7 @@
 # Maven 环境
 ## Maven 3
-* Maven 3.3.1 - 3.3.3 : Java 7 * Maven 3.2.1 - 3.2.5 : Java 6
+* Maven 3.3.1 - 3.3.3 : Java 7 
+* Maven 3.2.1 - 3.2.5 : Java 6
 * Maven 3.1.1 - : Java 5
 
 

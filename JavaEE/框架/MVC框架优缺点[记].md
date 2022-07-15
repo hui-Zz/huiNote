@@ -3,8 +3,9 @@
 | Model1 |       JavaBean       | JSP  |       JSP        | 仅用于Demo |
 | Model2 | JavaBean/dao/service | JSP  | Servlet(action)  | 老旧项目   |
 |  SSH   |      Hibernate       | JSP  |  Struts2/Spring  | 2014以前   |
-|  SSM   |       MyBatis        | HTML/JSP/Velocity/FreeMarker | SpringMVC/Spring | 2015以后   |
- 
+|  SSM   |       MyBatis        | JSP/Velocity/FreeMarker | SpringMVC | 2015-2017 |
+| SSM前后端分离 | MyBatis | HTML/VUE | SpringMVC | 2018以后 |
+
 ##  MVC设计模式
 
 + 模型      -----     Model
