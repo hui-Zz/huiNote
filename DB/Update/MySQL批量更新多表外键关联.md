@@ -6,3 +6,7 @@ WHERE
 	test1.id = test2.id
 ```
 
+```sql
+UPDATE 表名 
+SET 字段名 = REPLACE ( 字段名, '替换前', '替换后' );
+```

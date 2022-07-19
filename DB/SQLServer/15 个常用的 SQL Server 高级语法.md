@@ -238,7 +238,7 @@ select * from (select * from student where sAge<30) as t --被查询的子表必
 
 where t.sSex ='男' --对子表中的列筛选
 
-![js逻辑运算符技巧](../../assets/images/DB/0CA88UQL1.jpg)
+![15个常用的SQLServer高级语法-行转列](../../assets/images/DB/15个常用的SQLServer高级语法-行转列.jpg)
 
 
 转换为两位小数：CONVERT(numeric(10,2), AVG(english))

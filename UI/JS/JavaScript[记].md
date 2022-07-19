@@ -67,7 +67,7 @@ switch (true) {
 ## 【几乎所有语言中||和&&都遵循短路算法，&&中第一个表达式为假就不会去处理第二个表达式，而||正好相反。】
 
 ## <u>利用运算符精简if和switch代码：</u>
-[![js逻辑运算符技巧](../../assets/images/js/ca3f1fe9-5f3e-450e-9e05-bcab1165db2a.jpg)]()
+[![js逻辑运算符技巧](../../assets/images/js/JavaScript-逻辑运算符技巧.jpg)]()
 成长速度与箭头相关联，5速度=1箭头，以此类推：
 ```js
 var add_level = (add_step==5 && 1) || (add_step==10 && 2) || (add_step==12 && 3) || (add_step==15 && 4) || 0;
