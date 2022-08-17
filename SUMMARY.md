@@ -1,7 +1,7 @@
 ﻿* [Introduction简介](README.md)
 
 * [Apps](Apps/README.md)
-  * [AppDownList](Apps/AppDownList.md)
+  * [DownInstallList](Apps/DownInstallList.md)
   * [AppScoopList](Apps/AppScoopList.md)
   * [scoop_install](Apps/scoop_install.md)
   * [佳软分享——高效便捷实用[记]](Apps/佳软分享——高效便捷实用[记].md)
