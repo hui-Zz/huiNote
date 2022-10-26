@@ -5,7 +5,7 @@
 // @author      Gerald <i@gerald.top>
 // @icon        http://cn.gravatar.com/avatar/a0ad718d86d21262ccd6ff271ece08a3?s=80
 // @description Format JSON data in a beautiful way.
-// @description:zh-CN ¸ü¼ÓÆ¯ÁÁµØÏÔÊ¾JSONÊı¾İ¡£
+// @description:zh-CN æ›´åŠ æ¼‚äº®åœ°æ˜¾ç¤ºJSONæ•°æ®ã€‚
 // @version     2.0.9
 // @require https://cdn.jsdelivr.net/npm/@violentmonkey/dom@1
 // @match       *://*/*

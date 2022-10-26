@@ -1,9 +1,9 @@
 ```js
 // ==UserScript==
-// @name         ÎÒµÄbilibiliÅÅĞĞ°ñ½Å±¾
+// @name         æˆ‘çš„bilibiliæ’è¡Œæ¦œè„šæœ¬
 // @version      1.5
-// @description  1¡¢ÅÅĞĞ°ñ¹ıÂËÒÑÔÄÊÓÆµ
-// @author       Zz_×ÓÓÚ×ÓÀÖ
+// @description  1ã€æ’è¡Œæ¦œè¿‡æ»¤å·²é˜…è§†é¢‘ 2015/3/8
+// @author       Zz_å­äºå­ä¹
 // @include      *://www.bilibili.com/ranking
 // @include      *://www.bilibili.com/ranking?*
 // @include      *://www.bilibili.com/ranking/*
@@ -12,105 +12,105 @@
 // @namespace    https://greasyfork.org/users/9579
 // ==/UserScript==
 /////////////////////
-///<<½Å±¾³õÊ¼»¯>>///
+///<<è„šæœ¬åˆå§‹åŒ–>>///
 ///////////////////
-var MyRankZz = '<input id="MyRankButton" type="button" style="float:left;background:#00a1d6;color:#fff;border-radius:4px;padding:0 5px;height:25px;font-size:12px;margin-right:5px;margin-top:7px;cursor:pointer;" value="Ìí¼ÓÎÒµÄÅÅĞĞ" />'
+var MyRankZz = '<input id="MyRankButton" type="button" style="float:left;background:#00a1d6;color:#fff;border-radius:4px;padding:0 5px;height:25px;font-size:12px;margin-right:5px;margin-top:7px;cursor:pointer;" value="æ·»åŠ æˆ‘çš„æ’è¡Œ" />'
 + '<div style="float:left;background:#00a1d6;color:#fff;border-radius:4px;padding: 4px 5px;margin-top:1px;position: relative;top: 7px;">'
 + '<input id="MyRankCheck" type="checkbox" style="float:left;line-height:20px;margin-left:5px;cursor:pointer;text-align:center;transition:0.2s all;" />'
-+ '<label for="MyRankCheck" style="cursor:pointer;">ÎÒµÄÅÅĞĞ¹ıÂË</label>'
++ '<label for="MyRankCheck" style="cursor:pointer;">æˆ‘çš„æ’è¡Œè¿‡æ»¤</label>'
 + '</div>';
-$(MyRankZz).insertAfter(".rank-tab");	//ÔÚÒ³Ãæ²åÈë¿Ø¼ş
-var MyRankCheck = localStorage.getItem("MyRankCheck");	//»ñÈ¡¹ıÂË²ÎÊı
+$(MyRankZz).insertAfter(".rank-tab");	//åœ¨é¡µé¢æ’å…¥æ§ä»¶
+var MyRankCheck = localStorage.getItem("MyRankCheck");	//è·å–è¿‡æ»¤å‚æ•°
 if(MyRankCheck && MyRankCheck==1){
-    $("#MyRankCheck").attr("checked",true); //ÉèÖÃÑ¡Ïî
+    $("#MyRankCheck").attr("checked",true); //è®¾ç½®é€‰é¡¹
 }
 var d = new Date();
 var dMon = d.getMonth() + 1;
 if(!MyRankCheck && MyRanking!=0){
-    localStorage.setItem("MyRankCheck",0);	//³õÊ¼»¯²ÎÊı
-    localStorage.setItem("MyRanking"+dMon,"");	//³õÊ¼»¯´æ´¢
-    alert("ÅÅĞĞ°ñ½Å±¾³õÊ¼»¯³É¹¦£¡\n¡ª¡ªbilibiliÅÅĞĞ°ñ½Å±¾ by Zz");
-    location.reload(); //Ë¢ĞÂÒ³Ãæ
+    localStorage.setItem("MyRankCheck",0);	//åˆå§‹åŒ–å‚æ•°
+    localStorage.setItem("MyRanking"+dMon,"");	//åˆå§‹åŒ–å­˜å‚¨
+    alert("æ’è¡Œæ¦œè„šæœ¬åˆå§‹åŒ–æˆåŠŸï¼\nâ€”â€”bilibiliæ’è¡Œæ¦œè„šæœ¬ by Zz");
+    location.reload(); //åˆ·æ–°é¡µé¢
 }
-var MyRanking = localStorage.getItem("MyRanking"+dMon);	//»ñÈ¡´æ´¢ÅÅĞĞ
+var MyRanking = localStorage.getItem("MyRanking"+dMon);	//è·å–å­˜å‚¨æ’è¡Œ
 if(!MyRanking && MyRanking!=""){
-    localStorage.setItem("MyRanking"+dMon,"");	//Ìí¼ÓĞÂÒ»ÔÂ´æ´¢
-    alert("ÓÖÊÇĞÂµÄÒ»¸öÔÂ£¡¡ª¡ªbilibiliÅÅĞĞ°ñ½Å±¾");
+    localStorage.setItem("MyRanking"+dMon,"");	//æ·»åŠ æ–°ä¸€æœˆå­˜å‚¨
+    alert("åˆæ˜¯æ–°çš„ä¸€ä¸ªæœˆï¼â€”â€”bilibiliæ’è¡Œæ¦œè„šæœ¬");
 }
 ///////////////////////////////
-//==º¯Êıµİ¹éµÈ´ıÅÅĞĞ°ñ¼ÓÔØ==//
+//==å‡½æ•°é€’å½’ç­‰å¾…æ’è¡Œæ¦œåŠ è½½==//
 /////////////////////////////
 function loadStart(){
     if($(".dyn_list").html() == '<li class="rank-loading">loading...</li>'){
-        console.info("ÍøËÙÂı¡­¡­Ö»ÄÜµÈ");
+        console.info("ç½‘é€Ÿæ…¢â€¦â€¦åªèƒ½ç­‰");
         setTimeout(function(){
             loadStart();
         },100);
     }else{
-        rankShow(0);	//Æô¶¯ÅÅĞĞ±È½Ï¹ıÂË
+        rankShow(0);	//å¯åŠ¨æ’è¡Œæ¯”è¾ƒè¿‡æ»¤
     }
 }
 
 ///////////////////////////////
-//==ÅÅĞĞ°ñ±È½Ï¡¤¹ıÂË¡¤Ìí¼Ó==//
+//==æ’è¡Œæ¦œæ¯”è¾ƒÂ·è¿‡æ»¤Â·æ·»åŠ ==//
 /////////////////////////////
 function rankShow(a){
-    var rankList = MyRanking.split("£ü");	//´æ´¢ÅÅĞĞ·Ö¸îºó´æ·Å
-    var rankItem = new Array(100);	//µ±Ç°Ò³ÃæÅÅĞĞ
+    var rankList = MyRanking.split("ï½œ");	//å­˜å‚¨æ’è¡Œåˆ†å‰²åå­˜æ”¾
+    var rankItem = new Array(100);	//å½“å‰é¡µé¢æ’è¡Œ
     $(".info .title").each(function(i){
         rankItem[i] = $(this).html();
     });
-    //--¿ªÊ¼Ñ­»·±È½ÏÒ³ÃæÅÅĞĞÓë´æ´¢ÅÅĞĞ--//
+    //--å¼€å§‹å¾ªç¯æ¯”è¾ƒé¡µé¢æ’è¡Œä¸å­˜å‚¨æ’è¡Œ--//
     for(var n=0;n<100;n++){
-        var unRead = 1;	//ÒÑÔÄ·ñ?
+        var unRead = 1;	//å·²é˜…å¦?
         for(var m=0;m<rankList.length;m++){
             if(rankItem[n] == rankList[m]){
-                unRead = 0;	//ÒÑÔÄ¡«
+                unRead = 0;	//å·²é˜…ï½
                 if(MyRankCheck==1){
-                    $(".rank-list li:eq("+n+")").slideUp(); //Òş²ØÒÑÔÄ
+                    $(".rank-list li:eq("+n+")").slideUp(); //éšè—å·²é˜…
                 }else{
-                    $(".rank-list li:eq("+n+")").css("background","#c4e4b3");	//ÒÑÔÄÊÓÆµ¹ıÂËºó±äÂÌ
+                    $(".rank-list li:eq("+n+")").css("background","#c4e4b3");	//å·²é˜…è§†é¢‘è¿‡æ»¤åå˜ç»¿
                 }
             }
         }
         if(unRead==1){
             if(a==0){
-                $(".rank-list li:eq("+n+")").css("background","#edf2f9");	//Î´ÔÄÊÓÆµ¹ıÂËºó±äÀ¶
+                $(".rank-list li:eq("+n+")").css("background","#edf2f9");	//æœªé˜…è§†é¢‘è¿‡æ»¤åå˜è“
             }else{
-                MyRanking += "£ü" + rankItem[n];	//Ìí¼ÓÎ´ÔÄ
+                MyRanking += "ï½œ" + rankItem[n];	//æ·»åŠ æœªé˜…
                 console.info(rankItem[n]);
             }
         }
     }
     if(a==1){
         localStorage.setItem("MyRanking"+dMon,MyRanking);
-        //alert("³É¹¦Ìí¼Óµ±Ç°ÅÅĞĞµ½ÒÑÔÄ´æ´¢£¡¡ª¡ªbilibiliÅÅĞĞ°ñ½Å±¾");
+        //alert("æˆåŠŸæ·»åŠ å½“å‰æ’è¡Œåˆ°å·²é˜…å­˜å‚¨ï¼â€”â€”bilibiliæ’è¡Œæ¦œè„šæœ¬");
         location.reload();
     }
 }
-//++µã»÷ÎÒµÄÅÅĞĞ¹ıÂË++//
+//++ç‚¹å‡»æˆ‘çš„æ’è¡Œè¿‡æ»¤++//
 $("#MyRankCheck").click(function(){
     if($("#MyRankCheck").is(":checked")){
         MyRankCheck = 1;
-        localStorage.setItem("MyRankCheck",1); //´æ´¢¹ıÂË²ÎÊı1
-        rankShow(0); //µã»÷±È½ÏÏÔÊ¾ÅÅĞĞ
+        localStorage.setItem("MyRankCheck",1); //å­˜å‚¨è¿‡æ»¤å‚æ•°1
+        rankShow(0); //ç‚¹å‡»æ¯”è¾ƒæ˜¾ç¤ºæ’è¡Œ
     }else{
-        localStorage.setItem("MyRankCheck",0); //´æ´¢¹ıÂË²ÎÊı0
-        location.reload(); //»¹Ô­Ö±½ÓË¢ĞÂ...Íµ¸öÀÁ
+        localStorage.setItem("MyRankCheck",0); //å­˜å‚¨è¿‡æ»¤å‚æ•°0
+        location.reload(); //è¿˜åŸç›´æ¥åˆ·æ–°...å·ä¸ªæ‡’
     }
 });
-//++ÇĞ»»¸÷¸öÅÅĞĞ++//
+//++åˆ‡æ¢å„ä¸ªæ’è¡Œ++//
 $(".rank-menu li").click(function(){
     setTimeout(function(){
         loadStart();
     },200);
 });
-//++µã»÷Ìí¼ÓÎÒµÄÅÅĞĞ++//
+//++ç‚¹å‡»æ·»åŠ æˆ‘çš„æ’è¡Œ++//
 $("#MyRankButton").click(function(){
     rankShow(1);
 });
 /////////////////////
-//<<½Å±¾¿ªÊ¼¼ÓÔØ>>//
+//<<è„šæœ¬å¼€å§‹åŠ è½½>>//
 ///////////////////
 loadStart();
 

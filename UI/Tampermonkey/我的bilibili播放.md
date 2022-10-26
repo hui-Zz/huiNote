@@ -1,6 +1,6 @@
 ```js
 // ==UserScript==
-// @name         ÎÒµÄbilibili²¥·Å
+// @name         æˆ‘çš„bilibiliæ’­æ”¾
 // @namespace    http://your.homepage/
 // @version      2.2
 // @description  enter something useful
@@ -11,40 +11,40 @@
 // @require      https://cdn.jsdelivr.net/npm/jquery@1.12.4/dist/jquery.min.js
 // @grant        none
 // ==/UserScript==
-var headerM=".bili-header-m";  //ÉÔºóÔÙ¿´Í·²¿
-var header=".header";  //Í·²¿
-var z_top=".z_top_container";  //¶¥²¿¸öÈËÀ¸
-var viewbox=".viewbox"; //±êÌâ
-var player_wrapper=".player-wrapper"; //²¥·ÅÆ÷°ü×°
-var arc_toolbar=".arc-toolbar"; //Í¶±Ò
-var plist=".v-plist"; //·ÖPÁĞ±í
+var headerM=".bili-header-m";  //ç¨åå†çœ‹å¤´éƒ¨
+var header=".header";  //å¤´éƒ¨
+var z_top=".z_top_container";  //é¡¶éƒ¨ä¸ªäººæ 
+var viewbox=".viewbox"; //æ ‡é¢˜
+var player_wrapper=".player-wrapper"; //æ’­æ”¾å™¨åŒ…è£…
+var arc_toolbar=".arc-toolbar"; //æŠ•å¸
+var plist=".v-plist"; //åˆ†Påˆ—è¡¨
 
-$(header).hide(); //Òş²ØÍ·²¿
-$(headerM).hide(); //Òş²ØÍ·²¿
-$(z_top).hide(); //Òş²ØÍ·²¿
-$(player_wrapper).css("padding","0"); //²¥·ÅÆ÷°ü×°Ìî³ä¸ÄÎª0
-$(player_wrapper).css("border-top","0px"); //Í·±ß¿ò±äÎª0
-$("#bofqi").css({"margin":"0 auto","padding":"0"}); //²¥·ÅÆ÷±ß¾à¸ÄÎª0
+$(header).hide(); //éšè—å¤´éƒ¨
+$(headerM).hide(); //éšè—å¤´éƒ¨
+$(z_top).hide(); //éšè—å¤´éƒ¨
+$(player_wrapper).css("padding","0"); //æ’­æ”¾å™¨åŒ…è£…å¡«å……æ”¹ä¸º0
+$(player_wrapper).css("border-top","0px"); //å¤´è¾¹æ¡†å˜ä¸º0
+$("#bofqi").css({"margin":"0 auto","padding":"0"}); //æ’­æ”¾å™¨è¾¹è·æ”¹ä¸º0
 
-$(player_wrapper).insertBefore(viewbox); //ÒÆ¶¯²¥·ÅÆ÷°ü×°µ½±êÌâÖ®ÉÏ
-$(viewbox).insertBefore(arc_toolbar); //ÒÆ¶¯±êÌâµ½Í¶±ÒÖ®ÉÏ
-$(plist).insertBefore(arc_toolbar); //ÒÆ¶¯·ÖPÁĞ±íµ½Í¶±ÒÖ®ÉÏ
+$(player_wrapper).insertBefore(viewbox); //ç§»åŠ¨æ’­æ”¾å™¨åŒ…è£…åˆ°æ ‡é¢˜ä¹‹ä¸Š
+$(viewbox).insertBefore(arc_toolbar); //ç§»åŠ¨æ ‡é¢˜åˆ°æŠ•å¸ä¹‹ä¸Š
+$(plist).insertBefore(arc_toolbar); //ç§»åŠ¨åˆ†Påˆ—è¡¨åˆ°æŠ•å¸ä¹‹ä¸Š
 
 var MyTopZz = '<div id="MyTopZz" style="width:25px;height:25px; z-index:10001;left:20px;top:580px;position:absolute;'+
     'background-image: url(http://static.hdslb.com/images/base/icons.png); background-repeat: no-repeat; background-position: -915px -82px;" /> ';
-$(MyTopZz).insertBefore(".main-inner:eq(0)");	//ÔÚÒ³Ãæ²åÈë¿Ø¼ş
+$(MyTopZz).insertBefore(".main-inner:eq(0)");	//åœ¨é¡µé¢æ’å…¥æ§ä»¶
 
 $("#MyTopZz").click(function(){
     if($(header).is(":hidden")){
-        $(header).show(); //ÏÔÊ¾Í·²¿
-        $(z_top).show(); //ÏÔÊ¾¶¥²¿
+        $(header).show(); //æ˜¾ç¤ºå¤´éƒ¨
+        $(z_top).show(); //æ˜¾ç¤ºé¡¶éƒ¨
     }else{
-        $(header).hide(); //Òş²ØÍ·²¿
-        $(z_top).hide(); //Òş²Ø¶¥²¿
+        $(header).hide(); //éšè—å¤´éƒ¨
+        $(z_top).hide(); //éšè—é¡¶éƒ¨
     }
 });
 //////////////////////////////
-//¹ö¶¯µ½ÆÀÂÛÑ¡Ôñ°´ÔŞÍ¬Êı//
+//æ»šåŠ¨åˆ°è¯„è®ºé€‰æ‹©æŒ‰èµåŒæ•°//
 /////////////////////////////
 var s=0;
 $(window).scroll(function(){
@@ -55,13 +55,13 @@ $(window).scroll(function(){
     }
 });
 //////////////
-//×Ô¶¯¿íÆÁ//
+//è‡ªåŠ¨å®½å±//
 /////////////
 setTimeout("$('.bilibili-player-video-btn-widescreen').click();",3000);
 //setTimeout("document.getElementsByClassName('button ABP-WideScreen icon-tv')[0].click();
 
 
-// ¶¥²¿¸ß¶È
+// é¡¶éƒ¨é«˜åº¦
 $("#biliMainHeader").css('cssText', 'height:50px !important;');
 $("#biliMainHeader .mini-header").css('cssText', 'height:50px !important;');
 setTimeout("$('#biliMainHeader .mini-header').css('cssText', 'height:50px !important;');",3000);
