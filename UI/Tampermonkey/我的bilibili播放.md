@@ -8,6 +8,7 @@
 // @match        *://bangumi.bilibili.com/*
 // @match        *://www.bilibili.com/video/*
 // @match        *://www.bilibili.com/watchlater/*
+// @require      https://cdn.jsdelivr.net/npm/jquery@1.12.4/dist/jquery.min.js
 // @grant        none
 // ==/UserScript==
 var headerM=".bili-header-m";  //稍后再看头部
@@ -58,4 +59,11 @@ $(window).scroll(function(){
 /////////////
 setTimeout("$('.bilibili-player-video-btn-widescreen').click();",3000);
 //setTimeout("document.getElementsByClassName('button ABP-WideScreen icon-tv')[0].click();
+
+
+// 顶部高度
+$("#biliMainHeader").css('cssText', 'height:50px !important;');
+$("#biliMainHeader .mini-header").css('cssText', 'height:50px !important;');
+setTimeout("$('#biliMainHeader .mini-header').css('cssText', 'height:50px !important;');",3000);
+setTimeout("$('#biliMainHeader .mini-header').css('cssText', 'height:50px !important;');",6000);
 ```
