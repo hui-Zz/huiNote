@@ -53,7 +53,7 @@
 | Quick Notes                           | 工具     |      | 快捷便签                                                     |
 | Rainbow Brackets                      | 视觉     |  0   | 对各个对称括号进行着色，方便查看                             |
 | REST client                           | 工具     |      | IDEA内部http文件测试接口                                     |
-| RestfulToolkit                        | 快捷     |  3   | 快速查找 controller接口                                      |
+| RestfulTool                           | 快捷     |  3   | 快速查找 controller接口                                      |
 | SequenceDiagram                       | 工具     |  1   | 时序图生成工具                                               |
 | SonarLint                             | 工具     |      | Sonar分析插件                                                |
 | stackoverflow                         | 快捷     |  2   | 右键stackoverflow 搜索                                       |
