@@ -53,24 +53,20 @@ scoop install 7zip sudo git innounp
 ## 安装软件库和软件
 
 ```shell
-# 扩展软件库
+# 软件主库
 scoop bucket add main
+# 软件扩展库
 scoop bucket add extras
-scoop bucket add bear https://github.com/AStupidBear/scoop-bear
-# 国内软件软件库
-scoop bucket add dorado https://github.com/chawyehsu/dorado
-scoop bucket add dodorz https://github.com/dodorz/scoop
-scoop bucket add echo https://github.com/echoiron/echo-scoop
-scoop bucket add scoop-zapps https://github.com/kkzzhizhou/scoop-zapps
+# 软件库大合集
+scoop bucket add apps https://github.com/kkzzhizhou/scoop-apps
+# 大合集没包含的软件库
 scoop bucket add scoop-xkyii https://github.com/xkyii/scoop-xkyii
 # 安装指定某个库里面的软件：chrome浏览器（同名的情况）
-scoop bucket add 42wim https://github.com/42wim/scoop-bucket.git
-scoop install 42wim/googlechrome-dev
+scoop install apps/googlechrome-dev
 # 安装一些老版本软件
 scoop bucket add versions
 scoop install tomcat7 mysql56
 # Java开发环境
-scoop bucket add tomato https://github.com/zhoujin7/tomato.git
 scoop install OracleJDK8 maven tomcat nginx postman Navicat-Premium-chs
 ```
 
