@@ -89,18 +89,21 @@ scoop install colortool
 ## scoop help 帮助一览
 
 ```shell
-alias       Manage scoop aliases # 管理指令的替身
+alias       Manage scoop aliases # 管理指令的别名
 bucket      Manage Scoop buckets # 管理软件仓库
 cache       Show or clear the download cache # 查看与管理缓存
+cat         Show content of specified manifest. # 显示指定清单的内容
 checkup     Check for potential problems # 做个体检，检查问题
 cleanup     Cleanup apps by removing old versions # 清理缓存与旧版本软件包
 config      Get or set configuration values # 配置Scoop
 create      Create a custom app manifest # 创建自定义软件包
 depends     List dependencies for an app # 查看依赖
+download    Download apps in the cache folder and verify hashes # 下载到缓存并验证哈希
 export      Exports (an importable) list of installed apps # 导出软件包列表
 help        Show help for a command # 显示帮助指令
 hold        Hold an app to disable updates # 禁止软件包更新
 home        Opens the app homepage # 打开软件包主页
+import      Imports apps, buckets and configs from a Scoopfile in JSON format # 导入
 info        Display information about an app # 显示软件包信息
 install     Install apps # 安装软件包的指令
 list        List installed apps # 列出所有已安装软件包
