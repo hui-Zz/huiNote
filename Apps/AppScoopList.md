@@ -58,8 +58,6 @@ runany                   5.8.2                apps        2022-08-16 01:05:56
 scoop-search-multisource 0.1.20220804         apps        2022-08-16 01:09:46     
 scrcpy                   1.24                 main        2022-08-16 01:22:34     
 scrcpy-gui               1.5.1                apps        2022-08-16 01:43:56     
-shadowsocks              4.4.1.0              apps        2022-09-15 16:40:17     
-shadowsocksR             6.0.4                apps        2022-08-31 23:55:21     
 snipaste                 2.8-Beta             apps        2022-11-16 01:02:08     
 steam                    nightly-20201225     extras      2020-12-25 00:35:32             
 sublime-text             4-4143               apps        2022-11-15 01:04:51     
