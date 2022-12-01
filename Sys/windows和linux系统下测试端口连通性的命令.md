@@ -13,7 +13,7 @@
 telnet ip port
 ```
 
-## 1.1 开放的端口
+- 1.1 开放的端口
 
 ```bash
 [appuser&dp-core-bat ~]$ telnet 10.172.123.253 28080
@@ -21,7 +21,7 @@ Trying 10.172.123.253...
 Connected to 10.172.123.253
 ```
 
-## 1.2 不开放的端口
+- 1.2 不开放的端口
 
 ```bash
 [appuser&dp-core-bat ~]$ telnet 10.172.123.253 28081
@@ -39,14 +39,14 @@ ssh -v -p port ip
 - p 指定端口
 - username:远程主机的登录用户
 - ip:远程主机
-## 2.1. 开放的端口
+- 2.1. 开放的端口
 ```bash
 C:\WINDOWS\system32>ssh -v -p 28080 10.172.123.253
 OpenSSH_for_Windows_7.7p1, LibreSSL 2.6.5
 debug1: Connecting to 10.172.123.253 [10.172.123.253] port 28080.
 debug1: Connection established
 ```
-## 2.2 未开放的端口
+- 2.2 未开放的端口
 ```bash
 C:\WINDOWS\system32>ssh -v -p 28080 10.172.123.253
 OpenSSH_for_Windows_7.7p1, LibreSSL 2.6.5
@@ -61,7 +61,7 @@ url 是常用的命令行工具，用来请求 Web 服务器。它的名字就�
 ```bash
 curl ip:port
 ```
-## 3.1 开放的端口
+- 3.1 开放的端口
 ```bash
 [appuser&dp-core-bat ~]$ curl 10.172.123.253 28080
 <HTML>
@@ -71,7 +71,7 @@ curl ip:port
 </BODY>
 </HTML>
 ```
-## 3.2 未开放的端口
+- 3.2 未开放的端口
 ```bash
 [appuser&dp-core-bat ~]$ curl 10.172.123.253 28081
 curl: (7)Failed connect to 10.172.123.253:28081; Connection refused
@@ -83,12 +83,12 @@ wget 是一个从网络上自动下载文件的自由工具，支持通过 HTTP�
 ```bash
 wget ip:port
 ```
-## 4.1 开放的端口
+- 4.1 开放的端口
 ```bash
 wget 10.172.123.253:28080
 Connecting to 1.1.1.1:8000... connected.
 ```
-## 4.2 未开放的端口
+- 4.2 未开放的端口
 ```bash
 wget 10.172.123.253:28081 
 failed: Connection timed out. Retrying.
@@ -101,5 +101,5 @@ failed: Connection timed out. Retrying.
 tcping ip port
 ```
 # 总结
-**windows系统下可用的: 1/2/6**
-**linu系统下可用的: 1/2/3/4/5/6**
+**Windows系统下可用的: 1/2/6**
+**Linux系统下可用的: 1/2/3/4/5/6**
