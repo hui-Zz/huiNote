@@ -1,0 +1,16 @@
+# Apps
+- [[目录]](/)
+---
+- [AppScoopList](/Apps/AppScoopList)
+- [DownInstallList](/Apps/DownInstallList)
+- [scoop_install](/Apps/scoop_install)
+- [佳软分享——高效便捷实用[记]](/Apps/佳软分享——高效便捷实用[记])
+- [压缩命令[记]](/Apps/压缩命令[记])
+- [压缩格式[比]](/Apps/压缩格式[比])
+- [图片比较工具[比]](/Apps/图片比较工具[比])
+- [浏览器扩展[记]](/Apps/浏览器扩展[记])
+- [浏览器[比]](/Apps/浏览器[比])
+- [编辑器[比]](/Apps/编辑器[比])
+- [远程控制软件[比]](/Apps/远程控制软件[比])
+- [重装后恢复步骤](/Apps/重装后恢复步骤)
+- [重装备份列表](/Apps/重装备份列表)

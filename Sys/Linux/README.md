@@ -1,0 +1,6 @@
+# Linux
+- [[目录]](/)
+- [[目录/Sys]](/Sys/)
+---
+- [Redhat命令[记]](/Sys/Linux/Redhat命令[记])
+- [tar命令详解](/Sys/Linux/tar命令详解)
