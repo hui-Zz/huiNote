@@ -76,3 +76,10 @@ var add_level = (add_step==5 && 1) || (add_step==10 && 2) || (add_step==12 && 3)
 ```js
 var add_level={'5':1,'10':2,'12':3,'15':4}[add_step] || 0; 
 ```
+
+# 遍历替换img的src属性为ess-data值
+xpath：`//*[@id="conttpc"]//img/@ess-data`
+
+```js
+var img = document.getElementsByTagName('img'); var i = 0; for(;i<img.length;i++){ var face = img[i].getAttribute('ess-data'); img[i].setAttribute('src',face); }
+```

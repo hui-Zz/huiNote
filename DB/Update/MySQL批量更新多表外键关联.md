@@ -7,6 +7,6 @@ WHERE
 ```
 
 ```sql
-UPDATE ���� 
-SET �ֶ��� = REPLACE ( �ֶ���, '�滻ǰ', '�滻��' );
+UPDATE 表名 
+SET 字段名 = REPLACE ( 字段名, '替换前', '替换后' );
 ```

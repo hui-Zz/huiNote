@@ -29,20 +29,21 @@ document.documentElement.appendChild(styleEl);
 
 var num = 0;
 
+
 document.querySelector('#reader_pane').addEventListener('DOMNodeInserted', function (e) {
     num++;
     if(num % 10 == 0){
         // 缩小缩略图
-        var article = document.getElementsByClassName("article_tile");
-        for(var i=0;i<article.length;i++){
-            article[i].style.width = "10%";
-            article[i].style.height = "270px";
-            article[i].style.minWidth = "214px";
-        }
-        var picture = document.getElementsByClassName("article_tile_picture");
-        for(var j=0;j<picture.length;j++){
-            picture[j].style.height = "132px";
-        }
+//         var article = document.getElementsByClassName("article_tile");
+//         for(var i=0;i<article.length;i++){
+//             article[i].style.width = "10%";
+//             article[i].style.height = "270px";
+//             article[i].style.minWidth = "214px";
+//         }
+//         var picture = document.getElementsByClassName("article_tile_picture");
+//         for(var j=0;j<picture.length;j++){
+//             picture[j].style.height = "132px";
+//         }
         // console.info(num);
         // 插入一键打开
         var footer = document.getElementsByClassName("articles_feed_group_footer");
@@ -55,11 +56,12 @@ document.querySelector('#reader_pane').addEventListener('DOMNodeInserted', funct
                 var reg = /.*,(\d+),this.*/;
                 var fid = click.replace(reg,'$1');
                 // 插入链接
-                var a = document.createElement("a");
+                var a = document.createElement("div");
                 var node = document.createTextNode("——次性打开以上链接");
-                a.href="#";
+                // a.href="#";
                 a.setAttribute("data-fid", fid);
                 a.style.fontSize="13px";
+                a.style.cursor="pointer";
                 a.appendChild(node);
                 a.addEventListener("click", function(){
                     this.previousElementSibling.previousElementSibling.click();
@@ -83,6 +85,5 @@ function open_click_from_grouping(fid){
         }
     }
 }
-
 
 ```

@@ -19,6 +19,7 @@
 | chrome                                         | 浏览器 |  0   |   ✔   | https://www.google.cn/chrome/                                |
 | IDEA                                           |  开发  |  0   |   ✔   | https://www.jetbrains.com/idea/                              |
 | 网易云音乐                                     |  娱乐  |  1   |   ✔   | https://music.163.com/#/download                             |
+| 弹弹play                                       |  娱乐  |  1   |   ✔   | https://www.dandanplay.com/                                  |
 | Fences                                         |  系统  |  1   |   ✔   |                                                              |
 | Navicat Premium                                |  开发  |  1   |   ✔   |                                                              |
 | apache-maven                                   |  开发  |  1   |   ✔   | http://maven.apache.org/                                     |
@@ -32,5 +33,5 @@
 | jetty                                          |  开发  |  2   |   ✔   | https://www.eclipse.org/jetty/download.html                  |
 | 有道词典                                       |  学习  |  3   |   ✔   | http://cidian.youdao.com/                                    |
 | SoundWire Server                               |  扩展  |      |       |                                                              |
-| Spacedesk DRIVER                               |  扩展  |      |       |                                                              |
+| Spacedesk DRIVER                               |  扩展  |  2   |       | https://www.spacedesk.net/#download                          |
 | Twomon PC Program                              |  扩展  |      |       |                                                              |
