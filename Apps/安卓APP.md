@@ -1,0 +1,31 @@
+# play app
+- Microsoft Edge 130.0.2849.46
+- Microsoft OneDrive_7.18 (Beta 2)_APKPure.apk
+- Microsoft Outlook_4.2442.1
+- Microsoft Authenticator_6.2410.7271
+- Inoreader 7.7.4
+- Telegram_11.3.3
+- Telegram X 0.26.9.1730-arm64-v8a (1730020)
+- GoFly VPN,V2ray,Trojan,sock5_4.5.1
+- Wear OS by Google Smartwatch_2.66.107.587544675.gms_APKPure.apk
+- Keepass2Android Password Safe_1.11-r0_APKPure.apk
+- pixiv_6.130.0_APKPure.apk
+- GitHub_1.182.0_APKPure.apk
+- spacedesk - USB Display for PC_2.1.15_APKPure.apk
+- Every Proxy_14.3_APKPure.xapk
+- Android Proxy Server_8.9_APKPure.apk (手机代理服务器)
+- LocalSend_ FOSS Airdrop_1.16.1_APKPure.apk
+# github app
+- 隐藏应用列表 3.2
+- 快捷方式 2.0.3
+- 自动任务 1.4.7r56
+- 微X模块 2.43
+- MiPush Enhance 2.0.1
+# 其他
+- Server酱 1.0.14 (66)
+- WearOS 工具箱 2.3.0
+- 甲壳虫ADB助手 1.3.0
+- picacg 2.2.1.3.3.4
+- 智能套件 1.8
+- SD Maid 5.1.8
+- 空调狗 1.6.2
