@@ -4,13 +4,33 @@
 0.0.0.0 account.jetbrains.com
 0.0.0.0 www.jetbrains.com
 
+# xmind
+0.0.0.0 xmind.net
+0.0.0.0 www.xmind.net
+
+127.0.0.1       activate.navicat.com
+
+180.163.150.34 translate.googleapis.com
+142.250.105.90 translate.googleapis.com
+142.250.107.90 translate.googleapis.com
+172.253.114.90 translate.googleapis.com
+172.253.124.90 translate.googleapis.com
+
 #to solve sublime Text IPv6
 50.116.34.243 sublime.wbond.net
 #end
 
+# 92.247.181.40 www.inoreader.com
+# 92.247.181.40 inoreader.com
+
 # steam
 103.86.70.254 store.steampowered.com
 103.86.70.254 steamcommunity.com
+
+#140.82.112.4 github.com
+#199.232.69.194 github.global.ssl.fastly.net
+#185.199.108.154 github.githubassets.com
+#185.199.110.153 github.io
 
 #99.232.68.133 githubusercontent.com
 #199.232.68.133 githubusercontent.com
