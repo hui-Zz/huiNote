@@ -29,3 +29,5 @@ book.pdf
 book.epub
 book.mobi
 .obsidian/
+.stfolder/
+.stignore

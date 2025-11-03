@@ -12,13 +12,13 @@ tags:
 
 ### 系统
 
-| 短信 | `sms://` |
-| --- | --- |
-| app store | `itms-apps://` |
-| 电话 | `tel://` |
-| 备忘录 | `mobilenotes://` |
-| 设置 | `prefs:root=SETTING` |
-| E-Mail | `MESSAGE://` |
+| 短信        | `sms://`             |
+| --------- | -------------------- |
+| app store | `itms-apps://`       |
+| 电话        | `tel://`             |
+| 备忘录       | `mobilenotes://`     |
+| 设置        | `prefs:root=SETTING` |
+| E-Mail    | `MESSAGE://`         |
 
 ### 支付宝
 

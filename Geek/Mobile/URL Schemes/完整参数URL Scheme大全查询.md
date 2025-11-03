@@ -317,21 +317,21 @@ taobao://m.taobao.com/tbopen/index.html?h5Url=https%3A%2F%2Fpages.tmall.com%2Fwo
 #### 淘宝88VIP开通url scheme | 
 taobao://m.taobao.com/tbopen/index.html?h5Url=https://m.tb.cn/h.5ZeW5Ux
 ​
-#### 淘宝签到领福利url scheme | 
-tbopen://m.taobao.com/tbopen/index.html?h5Url=https://m.tb.cn/h.5g7kqpv
+#### ~~淘宝签到领福利url scheme |~~ 
+~~tbopen://m.taobao.com/tbopen/index.html?h5Url=https://m.tb.cn/h.5g7kqpv~~
 ​
-#### 淘宝一分兑url scheme | 
-taobao://s.taobao.com?q=%E4%B8%80%E5%88%86%E5%85%91
+#### ~~淘宝一分兑url scheme |~~ 
+~~taobao://s.taobao.com?q=%E4%B8%80%E5%88%86%E5%85%91~~
 ​
 #### 淘宝阳光农场url scheme | 
 taobao://m.taobao.com/tbopen/index.html?h5Url=https%3A%2F%2Fmarket.m.taobao.com%2Fapp%2Ftmall-wireless%2Ftmallfarm%2Findex.html%3Fut_sk%3D1.YQlTnCDj%2FRoDAPSJXXSmjKgU_21380790_1689389933162.Copy.tmall_farm%26disableNav%3DYES%26sourceType%3Dother%26inviteCode%3D0835a0c1fbf60242d3a9376adf9705e5%26spm%3Dfarm.newfarm.friendlistshare%26suid%3D13B2BF4B-0E2B-426D-A2BA-847765C40EF6%26un%3Daada4a218c01a1b4ade3a8129ff9a52d%26share_crt_v%3D1%26un_site%3D0%26sp_abtk%3Dcommon_tmall_farm_commonInfo%26sp_tk%3DMmUyV2RHWkVSd08%253D%26cpp%3D1%26shareurl%3Dtrue%26short_name%3Dh.502TbSr%26bxsign%3DscdQGVXoOTWpdaD-qs1UyAbJqZbjd2K6hvPUrYSyvzwZAoQVTu6JvIQdHN9daEGExO0bixwpylYnrVz2ljX-6wA9hPjMjWkqEd15ySupJ7sgMwqTJpp6F2VxT6ONNZ3SFEB%26tk%3D2e2WdGZERwO%26app%3Dmacos_safari&ut_sk=5.1689390159239.other.third-tmfarm-0&_ns=1&type=web&key=https%3A%2F%2Fmarket.m.taobao.com%2Fapp%2Ftmall-wireless%2Ftmallfarm%2Findex.html%3Fut_sk%3D1.YQlTnCDj%2FRoDAPSJXXSmjKgU_21380790_1689389933162.Copy.tmall_farm%26disableNav%3DYES%26sourceType%3Dother%26inviteCode%3D0835a0c1fbf60242d3a9376adf9705e5%26spm%3Dfarm.newfarm.friendlistshare%26suid%3D13B2BF4B-0E2B-426D-A2BA-847765C40EF6%26un%3Daada4a218c01a1b4ade3a8129ff9a52d%26share_crt_v%3D1%26un_site%3D0%26sp_abtk%3Dcommon_tmall_farm_commonInfo%26sp_tk%3DMmUyV2RHWkVSd08%253D%26cpp%3D1%26shareurl%3Dtrue%26short_name%3Dh.502TbSr%26bxsign%3DscdQGVXoOTWpdaD-qs1UyAbJqZbjd2K6hvPUrYSyvzwZAoQVTu6JvIQdHN9daEGExO0bixwpylYnrVz2ljX-6wA9hPjMjWkqEd15ySupJ7sgMwqTJpp6F2VxT6ONNZ3SFEB%26tk%3D2e2WdGZERwO%26app%3Dmacos_safari&mmstat=tmfarm&src=tmfarm&dl_ttid=tmfarm
 ​
-#### 淘宝成就中心url scheme | 
-taobao://m.taobao.com/tbopen/index.html?h5Url=https://m.tb.cn/h.5YjdNrN
-​
-#### 淘宝视频领现金签到url scheme | 
-tbopen://m.taobao.com/tbopen/index.html?h5Url=https://m.tb.cn/h.55tsYw4
-​
+#### ~~淘宝成就中心url scheme |~~ 
+~~taobao://m.taobao.com/tbopen/index.html?h5Url=https://m.tb.cn/h.5YjdNrN~~
+~~​~~
+#### ~~淘宝视频领现金签到url scheme |~~ 
+~~tbopen://m.taobao.com/tbopen/index.html?h5Url=https://m.tb.cn/h.55tsYw4~~
+~~​~~
 #### 淘宝赚现金url scheme | 
 tbopen://m.taobao.com/tbopen/index.html?h5Url=https%3A%2F%2Fpages.tmall.com%2Fwow%2Fz%2Fhdwk%2Ffission%2Fflow%3FshareKey%3DPgn2zXoTRUX%26disableNav%3DYES%26sourceType%3Dother%26suid%3DDA731940-D5C8-4BB4-B2C4-F11DA6272523%26qd_from%3Dtkl%26ut_sk%3D1.YQlTnCDj%2FRoDAPSJXXSmjKgU_21380790_1687848926692.wxfriend-taopassword.tm_fission%26un%3Daada4a218c01a1b4ade3a8129ff9a52d%26share_crt_v%3D1%26un_site%3D0%26spm%3Da2159r.13376460.0.0%26sp_abtk%3Dcommon_tm_fission_commonInfo%26sp_tk%3DQUVwRGRJeWNacDE%253D%26cpp%3D1%26shareurl%3Dtrue%26short_name%3Dh.5ai88ZC%26tk%3DAEpDdIycZp1%26app%3Dmacos_safari&action=ali.open.nav&module=h5&bootImage=0&slk_sid=UkUBHXzpowICARst2S6l9TnG_1687848961086&slk_t=1687848961617&afcPromotionOpen=false&source=slk_dp
 ​
@@ -356,8 +356,8 @@ tbopen://m.taobao.com/tbopen/index.html?h5Url=https%3A%2F%2Ftaocaicai.m.taobao.c
 #### 淘宝飞猪旅行签到url scheme | 
 tbopen://m.taobao.com/tbopen/index.html?h5Url=https%3A%2F%2Fm.duanqu.com%2F%3Fut_sk%3D1.YQlTnCDj%2FRoDAPSJXXSmjKgU_21380790_1689239179421.Copy.NewMiniapp%26_ariver_appid%3D6579080%26sourceType%3Dother%26suid%3D02E9B0E0-E843-44CF-B6AD-7D4A86959213%26page%3Dpages%252Findex%252Findex%26un%3Daada4a218c01a1b4ade3a8129ff9a52d%26share_crt_v%3D1%26un_site%3D0%26spm%3Da2159r.13376460.0.0%26sp_abtk%3Dcommon_NewMiniapp_commonInfo%26sp_tk%3DWW9DS2R0c2lZWUQ%253D%26cpp%3D1%26shareurl%3Dtrue%26short_name%3Dh.5bUZoL2%26app%3Dmacos_safari%26slk_gid%3Dgid_er_er%257Cgid_er_af_pop&action=ali.open.nav&module=h5&bootImage=0&slk_sid=9l8AHampS0QCARst2S7hfVtB_1689239316050&slk_t=1689239316053&slk_gid=gid_er_er%7Cgid_er_af_pop&afcPromotionOpen=false&source=slk_dp
 ​
-#### 淘宝签到领红包url scheme | 
-tbopen://m.taobao.com/tbopen/index.html?h5Url=https%3A%2F%2Ftxd.m.taobao.com%2Fwow%2Ftxdb%2Fact%2Fchannel-checkin%3Fut_sk%3D1.YQlTnCDj%2FRoDAPSJXXSmjKgU_21380790_1685739298667.QRCode-Scan.txdhuichang%26spmUrl%3Da21zu.tbmc_home.tabbar.my%26attribute%3DisPlatformSend_true%26spm%3Da21zu.info.market%26shareBackLog%3D1%26disableNav%3DYES%26_inTxd%3Dtrue%26pageId%3D1030165%26sourceType%3Dother%26suid%3DDE1FB0B1-7647-4EA6-83EB-C5DD5D014F0A%26renderChannelCode%3DTB%26ttid%3D201200%2540taobao_iphone_10.24.10%26status_bar_transparent%3Dtrue%26un%3Daada4a218c01a1b4ade3a8129ff9a52d%26share_crt_v%3D1%26un_site%3D0%26sp_abtk%3Dcommon_txdhuichang_commonInfo%26cpp%3D1%26shareurl%3Dtrue%26short_name%3Dh.UxSpjNe%26app%3Dmacos_safari%26slk_gid%3Dgid_er_normal%257Cgid_er_af_pop&action=ali.open.nav&module=h5&bootImage=0&slk_sid=9l8AHampS0QCARst2S7hfVtB_1685739918504&slk_t=1685739918572&slk_gid=gid_er_normal%7Cgid_er_af_pop&afcPromotionOpen=false&source=slk_dp
+#### ~~淘鲜达签到领红包url scheme |~~ 
+~~tbopen://m.taobao.com/tbopen/index.html?h5Url=https%3A%2F%2Ftxd.m.taobao.com%2Fwow%2Ftxdb%2Fact%2Fchannel-checkin%3Fut_sk%3D1.YQlTnCDj%2FRoDAPSJXXSmjKgU_21380790_1685739298667.QRCode-Scan.txdhuichang%26spmUrl%3Da21zu.tbmc_home.tabbar.my%26attribute%3DisPlatformSend_true%26spm%3Da21zu.info.market%26shareBackLog%3D1%26disableNav%3DYES%26_inTxd%3Dtrue%26pageId%3D1030165%26sourceType%3Dother%26suid%3DDE1FB0B1-7647-4EA6-83EB-C5DD5D014F0A%26renderChannelCode%3DTB%26ttid%3D201200%2540taobao_iphone_10.24.10%26status_bar_transparent%3Dtrue%26un%3Daada4a218c01a1b4ade3a8129ff9a52d%26share_crt_v%3D1%26un_site%3D0%26sp_abtk%3Dcommon_txdhuichang_commonInfo%26cpp%3D1%26shareurl%3Dtrue%26short_name%3Dh.UxSpjNe%26app%3Dmacos_safari%26slk_gid%3Dgid_er_normal%257Cgid_er_af_pop&action=ali.open.nav&module=h5&bootImage=0&slk_sid=9l8AHampS0QCARst2S7hfVtB_1685739918504&slk_t=1685739918572&slk_gid=gid_er_normal%7Cgid_er_af_pop&afcPromotionOpen=false&source=slk_dp~~
 ​
 #### 淘宝菜鸟裹裹我的快递url scheme｜
 贡献者@Mayuu酱重症患者
@@ -1239,35 +1239,29 @@ meituanwaimai://waimai.meituan.com/browser?inner_url=https%3A%2F%2Fmarket.waimai
 
 ## 饿了么url scheme
 
-#### 饿了么会员中心领豆签到url scheme | 
+#### ~~饿了么会员中心领豆签到url scheme |~~ 
 
-eleme://web?action=ali.open.nav&module=h5&packageName=me.ele&fastmode=1&bc_fl_src=undefined-0&url=https://air.tb.ele.me/app/conch-page/svip-grade-home/home%3Fpha%3Dtrue%26wh_ttid%3Dnative
-
+~~eleme://web?action=ali.open.nav&module=h5&packageName=me.ele&fastmode=1&bc_fl_src=undefined-0&url=https://air.tb.ele.me/app/conch-page/svip-grade-home/home%3Fpha%3Dtrue%26wh_ttid%3Dnative~~
 ​
-#### 饿了么现金提款机签到url scheme | 
+#### ~~饿了么现金提款机签到url scheme |~~ 
 
-eleme://web?url=https%3A%2F%2Floan-supermarket.faas.ele.me%2F%23%2Fmgm-transfer%3FactivityId%3DDH1630497638877%26moneId%3D157647305%26sceneCode%3Dloan_mgm%26channelId%3Dmgm1&_ltraffic_share=clipboard
-
+~~eleme://web?url=https%3A%2F%2Floan-supermarket.faas.ele.me%2F%23%2Fmgm-transfer%3FactivityId%3DDH1630497638877%26moneId%3D157647305%26sceneCode%3Dloan_mgm%26channelId%3Dmgm1&_ltraffic_share=clipboard~~
 ​
 #### 饿了么天天爆红包url scheme | 
 
 eleme://web?action=ali.open.nav&module=h5&packageName=me.ele&fastmode=1&bc_fl_src=undefined-0&url=https%3A%2F%2Fair.tb.ele.me%2Fapp%2Fconch-page%2Fsvip-new-exchange-coupons%2Findex
-
 ​
 #### 饿了么游乐园签到url scheme | 
 
 eleme://web?action=ali.open.nav&module=h5&packageName=me.ele&fastmode=1&bc_fl_src=undefined-0&url=https://tb.ele.me/wow/alsc/mod/b9ee9e6451bc8eda7a6afcbb
-
 ​
 #### 饿了么笔笔返url scheme | 
 
 eleme://web?action=ali.open.nav&module=h5&packageName=me.ele&fastmode=1&bc_fl_src=undefined-0&url=https://r.ele.me/alsc-wallet-bonus/index.html%3Fchannel%3Dfljx
-
 ​
-#### 饿了么果园浇水url scheme | 
+#### ~~饿了么果园浇水url scheme |~~ 
 
-eleme://web?action=ali.open.nav&module=h5&packageName=me.ele&fastmode=1&url=https%3A%2F%2Ftb.ele.me%2Fwow%2Falsc%2Fmod%2Fe5116e6b8234fdb0a50f69cb%3FshareId%3D7kfbRx41MWbSnG5Kv%2Fl16Vq66E2iZHSs%2Fj7CuQiRsAlyRdQ6Jx8HmpHCa5DVr5eVOgtsod2uBnhQ2CzPbpzE1ILIgIoLDzO3GvVh%2FdoF64Yma4SjdOagV0Qrr%2Br3K82zCTxH2KzvEMesyJwCtEBXTlMcusVevodNg0XzqNbrAhYI91ZA0WsDjJF65KJsAkdK85PScE%2FbrxlTiLVsQqUGx9%2B34NG9K6r8BJfcRPXjnNA%2FSzdIjWRMoAHbR5zHSaRUa%2FnNNH8YSnCOn8c9HuWBk8FvJV44eQla29J%2BO%2FrauXj1cKVn0EeS%2BfMbz3NYa6hVcn7%2Fq2R4lRW7iGLoM9NXPAmD1CJYH7hxPny1CGbilRpVGKUrzHLx0HEyqAbx4uFX%26taskId%3D2516001%26action%3DbyP2P_SHARE%26fxzjshareChinfo%3Dch_share__chsub_CopyLink%26apshareid%3D3FDBC322-940B-48CB-9710-C29E57056475%26shareBizType%3DztokenV0_XekxVqDv%26shareTimestamp%3D1696105259428&navType=0
-
+~~eleme://web?action=ali.open.nav&module=h5&packageName=me.ele&fastmode=1&url=https%3A%2F%2Ftb.ele.me%2Fwow%2Falsc%2Fmod%2Fe5116e6b8234fdb0a50f69cb%3FshareId%3D7kfbRx41MWbSnG5Kv%2Fl16Vq66E2iZHSs%2Fj7CuQiRsAlyRdQ6Jx8HmpHCa5DVr5eVOgtsod2uBnhQ2CzPbpzE1ILIgIoLDzO3GvVh%2FdoF64Yma4SjdOagV0Qrr%2Br3K82zCTxH2KzvEMesyJwCtEBXTlMcusVevodNg0XzqNbrAhYI91ZA0WsDjJF65KJsAkdK85PScE%2FbrxlTiLVsQqUGx9%2B34NG9K6r8BJfcRPXjnNA%2FSzdIjWRMoAHbR5zHSaRUa%2FnNNH8YSnCOn8c9HuWBk8FvJV44eQla29J%2BO%2FrauXj1cKVn0EeS%2BfMbz3NYa6hVcn7%2Fq2R4lRW7iGLoM9NXPAmD1CJYH7hxPny1CGbilRpVGKUrzHLx0HEyqAbx4uFX%26taskId%3D2516001%26action%3DbyP2P_SHARE%26fxzjshareChinfo%3Dch_share__chsub_CopyLink%26apshareid%3D3FDBC322-940B-48CB-9710-C29E57056475%26shareBizType%3DztokenV0_XekxVqDv%26shareTimestamp%3D1696105259428&navType=0~~
 ​
 #### 饿了么每日红包url scheme | 
 
