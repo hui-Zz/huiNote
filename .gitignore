@@ -30,4 +30,5 @@ book.epub
 book.mobi
 .obsidian/
 .stfolder/
+.stversions/
 .stignore

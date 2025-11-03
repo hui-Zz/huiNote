@@ -1,6 +1,6 @@
 # hui-Zz💤Note [![Build Status](https://travis-ci.com/hui-Zz/huiNote.svg?branch=master)](https://travis-ci.com/hui-Zz/huiNote)
 
-[![hui-Zz空间](/assets/images/Z_Plus.jpg ':size=320x160')](https://hui-zz.github.io)
+[![hui-Zz空间](/assets/img/Z_Plus.jpg ':size=320x160')](https://hui-zz.github.io)
 
 * [链接]：
   * [![](https://img.shields.io/badge/Github-hui—Zz空间-blue.svg)](https://hui-zz.github.io) [![](https://img.shields.io/badge/Gitee-hui—Zz空间-blue.svg)](https://hui-zz.gitee.io)
