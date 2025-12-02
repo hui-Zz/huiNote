@@ -32,3 +32,5 @@ book.mobi
 .stfolder/
 .stversions/
 .stignore
+assets/.bf/
+*.mp4
