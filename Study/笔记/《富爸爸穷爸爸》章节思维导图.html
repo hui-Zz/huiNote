@@ -1,0 +1,541 @@
+
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>《富爸爸穷爸爸》章节思维导图</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <style>
+        body {
+            font-family: 'Noto Sans SC', 'Helvetica Neue', sans-serif;
+            background-color: #FFFFFF;
+        }
+        .card {
+            background-color: white;
+            border: 1px solid #E5E7EB;
+            border-radius: 1.25rem;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+            transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+            overflow: hidden;
+            position: relative;
+        }
+        .highlight-gradient-blue {
+            background: linear-gradient(135deg, rgba(59, 130, 246, 0), rgba(59, 130, 246, 0.05));
+        }
+        .highlight-gradient-green {
+            background: linear-gradient(135deg, rgba(34, 197, 94, 0), rgba(34, 197, 94, 0.05));
+        }
+        .highlight-gradient-purple {
+            background: linear-gradient(135deg, rgba(168, 85, 247, 0), rgba(168, 85, 247, 0.05));
+        }
+        .highlight-gradient-amber {
+            background: linear-gradient(135deg, rgba(245, 158, 11, 0), rgba(245, 158, 11, 0.05));
+        }
+        .highlight-gradient-red {
+            background: linear-gradient(135deg, rgba(239, 68, 68, 0), rgba(239, 68, 68, 0.05));
+        }
+        .highlight-gradient-cyan {
+            background: linear-gradient(135deg, rgba(6, 182, 212, 0), rgba(6, 182, 212, 0.05));
+        }
+        .card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+        }
+    </style>
+</head>
+<body class="bg-white">
+    <div class="max-w-7xl mx-auto p-4 md:p-8">
+        <div class="grid grid-cols-1 md:grid-cols-4 gap-4 md:gap-6">
+            <!-- 标题卡片 -->
+            <div class="card md:col-span-4 p-8 flex flex-col justify-center items-center text-center relative">
+                <div class="absolute top-0 left-0 w-full h-full highlight-gradient-blue"></div>
+                <h1 class="text-4xl md:text-6xl font-bold text-gray-800 mb-4">《富爸爸穷爸爸》</h1>
+                <p class="text-xl md:text-2xl text-gray-600">章节思维导图与详细阐释</p>
+                <div class="mt-8 flex flex-wrap justify-center gap-4 text-sm text-gray-500">
+                    <span><i class="fa-solid fa-book-open mr-1"></i>1997年出版</span>
+                    <span><i class="fa-solid fa-language mr-1"></i>51种语言</span>
+                    <span><i class="fa-solid fa-globe mr-1"></i>109个国家</span>
+                    <span><i class="fa-solid fa-chart-line mr-1"></i>3200万+销量</span>
+                </div>
+            </div>
+
+            <!-- 两位父亲对比卡片 -->
+            <div class="card md:col-span-2 md:row-span-2 p-8 flex flex-col relative">
+                <div class="absolute top-0 left-0 w-full h-full highlight-gradient-green"></div>
+                <h2 class="text-2xl font-bold text-gray-800 mb-6">第一章：两种父亲的财富观念对比</h2>
+                
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-6 flex-grow">
+                    <!-- 穷爸爸 -->
+                    <div class="bg-gray-50 rounded-lg p-6 border border-gray-200">
+                        <div class="flex items-center mb-4">
+                            <i class="fa-solid fa-user-tie text-2xl text-red-500 mr-3"></i>
+                            <h3 class="text-xl font-bold text-red-600">穷爸爸</h3>
+                            <p class="text-sm text-gray-500 ml-2">高学历教育官员</p>
+                        </div>
+                        <ul class="space-y-3 text-gray-700">
+                            <li class="flex items-start">
+                                <i class="fa-solid fa-graduation-cap text-red-400 mt-1 mr-2"></i>
+                                <span><strong>教育观念：</strong>"好好学习，考名校找好工作"</span>
+                            </li>
+                            <li class="flex items-start">
+                                <i class="fa-solid fa-dollar-sign text-red-400 mt-1 mr-2"></i>
+                                <span><strong>金钱观：</strong>"贪财乃万恶之源"</span>
+                            </li>
+                            <li class="flex items-start">
+                                <i class="fa-solid fa-shield-halved text-red-400 mt-1 mr-2"></i>
+                                <span><strong>风险态度：</strong>"当涉及钱的时候要小心，别去冒险"</span>
+                            </li>
+                            <li class="flex items-start">
+                                <i class="fa-solid fa-ban text-red-400 mt-1 mr-2"></i>
+                                <span><strong>面对问题：</strong>"我可付不起"</span>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <!-- 富爸爸 -->
+                    <div class="bg-gray-50 rounded-lg p-6 border border-gray-200">
+                        <div class="flex items-center mb-4">
+                            <i class="fa-solid fa-sack-dollar text-2xl text-green-500 mr-3"></i>
+                            <h3 class="text-xl font-bold text-green-600">富爸爸</h3>
+                            <p class="text-sm text-gray-500 ml-2">高中未毕业企业家</p>
+                        </div>
+                        <ul class="space-y-3 text-gray-700">
+                            <li class="flex items-start">
+                                <i class="fa-solid fa-brain text-green-400 mt-1 mr-2"></i>
+                                <span><strong>教育观念：</strong>"财商 > 学历"</span>
+                            </li>
+                            <li class="flex items-start">
+                                <i class="fa-solid fa-coins text-green-400 mt-1 mr-2"></i>
+                                <span><strong>金钱观：</strong>"贫穷才是万恶之本"</span>
+                            </li>
+                            <li class="flex items-start">
+                                <i class="fa-solid fa-arrow-trend-up text-green-400 mt-1 mr-2"></i>
+                                <span><strong>风险态度：</strong>"要学会管理风险"</span>
+                            </li>
+                            <li class="flex items-start">
+                                <i class="fa-solid fa-lightbulb text-green-400 mt-1 mr-2"></i>
+                                <span><strong>面对问题：</strong>"我怎样才能付得起"</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 老鼠赛跑卡片 -->
+            <div class="card md:col-span-2 p-8 flex flex-col justify-center relative">
+                <div class="absolute top-0 left-0 w-full h-full highlight-gradient-purple"></div>
+                <h2 class="text-2xl font-bold text-gray-800 mb-4">第二章：打破"老鼠赛跑"的思维定式</h2>
+                <p class="text-gray-600 mb-6">人们的生活被恐惧和贪婪两种感觉控制，形成起床→上班→付账→再起床→再上班→再付账的循环模式。</p>
+                <div class="flex items-center justify-center">
+                    <div class="text-center">
+                        <i class="fa-solid fa-person-running text-5xl text-purple-500 mb-3"></i>
+                        <p class="text-lg font-semibold text-purple-700">真正的富人不是为钱去工作的</p>
+                        <p class="text-sm text-gray-500 mt-1">他工作的目标是为了让钱为他来工作</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 资产与负债卡片 -->
+            <div class="card md:col-span-2 p-8 flex flex-col justify-center relative">
+                <div class="absolute top-0 left-0 w-full h-full highlight-gradient-amber"></div>
+                <h2 class="text-2xl font-bold text-gray-800 mb-4">第三章：资产与负债的颠覆性定义</h2>
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                    <div class="bg-green-50 rounded-lg p-6 border border-green-200">
+                        <h3 class="text-xl font-bold text-green-600 mb-3">资产</h3>
+                        <p class="text-gray-700 mb-4">能把钱放进你口袋里的东西</p>
+                        <ul class="text-sm text-gray-600 space-y-1">
+                            <li>• 租金收入</li>
+                            <li>• 股息</li>
+                            <li>• 版权费</li>
+                            <li>• 副业被动收入</li>
+                        </ul>
+                    </div>
+                    <div class="bg-red-50 rounded-lg p-6 border border-red-200">
+                        <h3 class="text-xl font-bold text-red-600 mb-3">负债</h3>
+                        <p class="text-gray-700 mb-4">会把钱从你口袋里拿走的东西</p>
+                        <ul class="text-sm text-gray-600 space-y-1">
+                            <li>• 房贷</li>
+                            <li>• 车贷</li>
+                            <li>• 信用卡账单</li>
+                            <li>• 奢侈品消费</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 财商四大支柱卡片 -->
+            <div class="card md:col-span-4 p-8 relative">
+                <div class="absolute top-0 left-0 w-full h-full highlight-gradient-cyan"></div>
+                <h2 class="text-2xl font-bold text-gray-800 mb-6">第三章：财商的四大支柱</h2>
+                <div class="grid grid-cols-1 md:grid-cols-4 gap-6">
+                    <div class="bg-cyan-50 rounded-lg p-6 border border-cyan-200 text-center">
+                        <i class="fa-solid fa-calculator text-4xl text-cyan-500 mb-4"></i>
+                        <h3 class="text-lg font-bold text-cyan-700 mb-2">会计</h3>
+                        <p class="text-sm text-gray-600">能读懂财务报表，分清资产与负债，了解现金流走向</p>
+                    </div>
+                    <div class="bg-cyan-50 rounded-lg p-6 border border-cyan-200 text-center">
+                        <i class="fa-solid fa-chart-pie text-4xl text-cyan-500 mb-4"></i>
+                        <h3 class="text-lg font-bold text-cyan-700 mb-2">投资</h3>
+                        <p class="text-sm text-gray-600">钱生钱的科学，需要右脑的创造性思维</p>
+                    </div>
+                    <div class="bg-cyan-50 rounded-lg p-6 border border-cyan-200 text-center">
+                        <i class="fa-solid fa-bullseye text-4xl text-cyan-500 mb-4"></i>
+                        <h3 class="text-lg font-bold text-cyan-700 mb-2">了解市场</h3>
+                        <p class="text-sm text-gray-600">供需关系的科学，包括基本面与技术面</p>
+                    </div>
+                    <div class="bg-cyan-50 rounded-lg p-6 border border-cyan-200 text-center">
+                        <i class="fa-solid fa-gavel text-4xl text-cyan-500 mb-4"></i>
+                        <h3 class="text-lg font-bold text-cyan-700 mb-2">法律</h3>
+                        <p class="text-sm text-gray-600">利用减税优惠政策和公司法，在诉讼中得到保护</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 职业与事业卡片 -->
+            <div class="card md:col-span-2 p-8 flex flex-col justify-center relative">
+                <div class="absolute top-0 left-0 w-full h-full highlight-gradient-blue"></div>
+                <h2 class="text-2xl font-bold text-gray-800 mb-4">第四章：职业与事业的本质区别</h2>
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                    <div class="bg-gray-50 rounded-lg p-6 border border-gray-200">
+                        <h3 class="text-xl font-bold text-gray-700 mb-3">职业</h3>
+                        <p class="text-gray-600 mb-4">为他人工作换取工资的行为，是你获取现金流的手段</p>
+                        <div class="flex justify-center">
+                            <i class="fa-solid fa-briefcase text-4xl text-gray-400"></i>
+                        </div>
+                    </div>
+                    <div class="bg-blue-50 rounded-lg p-6 border border-blue-200">
+                        <h3 class="text-xl font-bold text-blue-700 mb-3">事业</h3>
+                        <p class="text-gray-600 mb-4">为自己创造资产的过程，是构建能持续增值的资产网络</p>
+                        <div class="flex justify-center">
+                            <i class="fa-solid fa-building-columns text-4xl text-blue-500"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 真正的资产类型卡片 -->
+            <div class="card md:col-span-2 p-8 flex flex-col relative">
+                <div class="absolute top-0 left-0 w-full h-full highlight-gradient-green"></div>
+                <h2 class="text-2xl font-bold text-gray-800 mb-4">第四章：真正的资产类型</h2>
+                <ul class="space-y-3 text-gray-700 flex-grow">
+                    <li class="flex items-start">
+                        <i class="fa-solid fa-cogs text-green-500 mt-1 mr-3"></i>
+                        <span>不需我到场就可以正常运作的业务</span>
+                    </li>
+                    <li class="flex items-start">
+                        <i class="fa-solid fa-arrow-trend-up text-green-500 mt-1 mr-3"></i>
+                        <span>股票</span>
+                    </li>
+                    <li class="flex items-start">
+                        <i class="fa-solid fa-hand-holding-dollar text-green-500 mt-1 mr-3"></i>
+                        <span>债券</span>
+                    </li>
+                    <li class="flex items-start">
+                        <i class="fa-solid fa-building text-green-500 mt-1 mr-3"></i>
+                        <span>能够产生收入的房地产</span>
+                    </li>
+                    <li class="flex items-start">
+                        <i class="fa-solid fa-file-invoice-dollar text-green-500 mt-1 mr-3"></i>
+                        <span>票据（借据）</span>
+                    </li>
+                    <li class="flex items-start">
+                        <i class="fa-solid fa-copyright text-green-500 mt-1 mr-3"></i>
+                        <span>版税，如音乐、手稿、专利</span>
+                    </li>
+                    <li class="flex items-start">
+                        <i class="fa-solid fa-gem text-green-500 mt-1 mr-3"></i>
+                        <span>其他任何有价值、可产生收入或有增值潜力并且有很好销路的东西</span>
+                    </li>
+                </ul>
+            </div>
+
+            <!-- 税收历史卡片 -->
+            <div class="card md:col-span-2 p-8 flex flex-col justify-center relative">
+                <div class="absolute top-0 left-0 w-full h-full highlight-gradient-amber"></div>
+                <h2 class="text-2xl font-bold text-gray-800 mb-4">第五章：税收的历史演变</h2>
+                <div class="space-y-4">
+                    <div class="bg-gray-50 rounded-lg p-4 border border-gray-200">
+                        <p class="text-gray-700"><strong>早期：</strong>英国和美国是不须纳税的，只有一些为战争而临时征收的税，国王和总统称之为"纳捐"</p>
+                    </div>
+                    <div class="bg-gray-50 rounded-lg p-4 border border-gray-200">
+                        <p class="text-gray-700"><strong>英国：</strong>1799年到1816年间为与拿破仑作战而征税，1874年规定纳税是国民的长期义务</p>
+                    </div>
+                    <div class="bg-gray-50 rounded-lg p-4 border border-gray-200">
+                        <p class="text-gray-700"><strong>美国：</strong>1861年到1865年间为应付内战而征税，1913年通过宪法修正案（第16条），规定了所得税的征收合法</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 公司的力量卡片 -->
+            <div class="card md:col-span-2 p-8 flex flex-col justify-center relative">
+                <div class="absolute top-0 left-0 w-full h-full highlight-gradient-purple"></div>
+                <h2 class="text-2xl font-bold text-gray-800 mb-4">第五章：公司的力量机制</h2>
+                <ul class="space-y-3 text-gray-700">
+                    <li class="flex items-start">
+                        <i class="fa-solid fa-building text-purple-500 mt-1 mr-3"></i>
+                        <span>公司是一个装着法律文件的文件夹创造的法律实体</span>
+                    </li>
+                    <li class="flex items-start">
+                        <i class="fa-solid fa-percent text-purple-500 mt-1 mr-3"></i>
+                        <span>企业所得税率低于个人收入所得税率，这是富人钻的最大的法律空子</span>
+                    </li>
+                    <li class="flex items-start">
+                        <i class="fa-solid fa-receipt text-purple-500 mt-1 mr-3"></i>
+                        <span>公司的某些支出可以用税前收入支付，而个人必须用税后收入支付所有开支</span>
+                    </li>
+                </ul>
+                <div class="mt-6 p-4 bg-purple-50 rounded-lg border border-purple-200">
+                    <p class="text-gray-700"><strong>核心洞察：</strong>雇员挣钱、纳税，并靠剩下的钱为生；企业挣钱、花钱，并只为剩下来的钱缴税</p>
+                </div>
+            </div>
+
+            <!-- 两种投资者类型卡片 -->
+            <div class="card md:col-span-2 p-8 flex flex-col justify-center relative">
+                <div class="absolute top-0 left-0 w-full h-full highlight-gradient-blue"></div>
+                <h2 class="text-2xl font-bold text-gray-800 mb-4">第六章：两种投资者类型</h2>
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                    <div class="bg-gray-50 rounded-lg p-6 border border-gray-200">
+                        <h3 class="text-xl font-bold text-gray-700 mb-3">第一类投资者</h3>
+                        <p class="text-gray-600 mb-4">进行一揽子投资的人，联系中介机构（如房地产公司、股票经纪人）购买产品</p>
+                        <div class="flex justify-center">
+                            <i class="fa-solid fa-users text-4xl text-gray-400"></i>
+                        </div>
+                    </div>
+                    <div class="bg-blue-50 rounded-lg p-6 border border-blue-200">
+                        <h3 class="text-xl font-bold text-blue-700 mb-3">第二类投资者</h3>
+                        <p class="text-gray-600 mb-4">自己创造投资机会的投资者，自行组织交易，像组装电脑一样组合各种要素</p>
+                        <div class="flex justify-center">
+                            <i class="fa-solid fa-lightbulb text-4xl text-blue-500"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 三种关键投资技能卡片 -->
+            <div class="card md:col-span-2 p-8 flex flex-col relative">
+                <div class="absolute top-0 left-0 w-full h-full highlight-gradient-green"></div>
+                <h2 class="text-2xl font-bold text-gray-800 mb-4">第六章：三种关键投资技能</h2>
+                <ul class="space-y-4 text-gray-700 flex-grow">
+                    <li class="flex items-start">
+                        <div class="bg-green-100 rounded-full w-8 h-8 flex items-center justify-center mr-3 mt-1">
+                            <span class="text-green-700 font-bold">1</span>
+                        </div>
+                        <div>
+                            <h3 class="font-bold">寻找其他人都忽视的机会</h3>
+                            <p class="text-sm">投资成功的关键在于发现被大多数人忽略的机会</p>
+                        </div>
+                    </li>
+                    <li class="flex items-start">
+                        <div class="bg-green-100 rounded-full w-8 h-8 flex items-center justify-center mr-3 mt-1">
+                            <span class="text-green-700 font-bold">2</span>
+                        </div>
+                        <div>
+                            <h3 class="font-bold">增加资金</h3>
+                            <p class="text-sm">不局限于银行贷款，通过多种方法获得资金</p>
+                        </div>
+                    </li>
+                    <li class="flex items-start">
+                        <div class="bg-green-100 rounded-full w-8 h-8 flex items-center justify-center mr-3 mt-1">
+                            <span class="text-green-700 font-bold">3</span>
+                        </div>
+                        <div>
+                            <h3 class="font-bold">把精明的人组织起来</h3>
+                            <p class="text-sm">聪明的人往往会雇用比自己更聪明的人或与他们一起工作</p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+
+            <!-- 工作的真正目的卡片 -->
+            <div class="card md:col-span-4 p-8 flex flex-col justify-center items-center text-center relative">
+                <div class="absolute top-0 left-0 w-full h-full highlight-gradient-amber"></div>
+                <h2 class="text-2xl font-bold text-gray-800 mb-6">第七章：工作的真正目的</h2>
+                <p class="text-3xl font-bold text-amber-600 mb-4">"找工作时要看能从中学到什么，而不是只看能挣多少"</p>
+                <p class="text-gray-600 mb-8 max-w-3xl">在选择职业之前，要仔细看脚下的路，弄清楚自己到底想获得什么技能，要有长远的眼光。工作不应只看报酬，更应注重学习技能，要打破"老鼠赛跑"陷阱。</p>
+                <div class="bg-amber-50 rounded-lg p-6 border border-amber-200 max-w-2xl">
+                    <h3 class="text-xl font-bold text-amber-700 mb-3">最重要的技能——销售和市场营销</h3>
+                    <p class="text-gray-700">"最重要的专门技能是销售和对市场营销的理解"，销售技能是个人成功的基本技能。销售不仅仅是卖东西，首先得知道顾客、雇员、老板等各种人的需要，还要让他们知道产品的价值。</p>
+                </div>
+            </div>
+
+            <!-- 五大心理障碍卡片 -->
+            <div class="card md:col-span-4 p-8 relative">
+                <div class="absolute top-0 left-0 w-full h-full highlight-gradient-red"></div>
+                <h2 class="text-2xl font-bold text-gray-800 mb-6">第八章：实现财务自由的五大心理障碍</h2>
+                <div class="grid grid-cols-1 md:grid-cols-5 gap-6">
+                    <div class="bg-red-50 rounded-lg p-6 border border-red-200 text-center">
+                        <i class="fa-solid fa-heart-pulse text-4xl text-red-500 mb-4"></i>
+                        <h3 class="text-lg font-bold text-red-700 mb-2">恐惧心理</h3>
+                        <p class="text-sm text-gray-600">对可能损失金钱的畏惧心理，是人们在财务上不成功的主要原因</p>
+                    </div>
+                    <div class="bg-red-50 rounded-lg p-6 border border-red-200 text-center">
+                        <i class="fa-solid fa-comment-slash text-4xl text-red-500 mb-4"></i>
+                        <h3 class="text-lg font-bold text-red-700 mb-2">愤世嫉俗</h3>
+                        <p class="text-sm text-gray-600">未经证实的怀疑和恐惧会使人们成为愤世嫉俗者，愤世者抱怨现实，而成功者分析现实</p>
+                    </div>
+                    <div class="bg-red-50 rounded-lg p-6 border border-red-200 text-center">
+                        <i class="fa-solid fa-bed text-4xl text-red-500 mb-4"></i>
+                        <h3 class="text-lg font-bold text-red-700 mb-2">懒惰</h3>
+                        <p class="text-sm text-gray-600">不是简单的不想干活，而是指那些用忙碌来掩盖自己逃避重要事情的行为</p>
+                    </div>
+                    <div class="bg-red-50 rounded-lg p-6 border border-red-200 text-center">
+                        <i class="fa-solid fa-triangle-exclamation text-4xl text-red-500 mb-4"></i>
+                        <h3 class="text-lg font-bold text-red-700 mb-2">不良习惯</h3>
+                        <p class="text-sm text-gray-600">穷人有一些不好的习惯，其中一个普遍的坏习惯就是随便动用储蓄</p>
+                    </div>
+                    <div class="bg-red-50 rounded-lg p-6 border border-red-200 text-center">
+                        <i class="fa-solid fa-horse-head text-4xl text-red-500 mb-4"></i>
+                        <h3 class="text-lg font-bold text-red-700 mb-2">自负</h3>
+                        <p class="text-sm text-gray-600">当你自高自大时，就认为不知道的东西并不重要，这会让你失去学习机会</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 十个行动步骤卡片 -->
+            <div class="card md:col-span-4 p-8 relative">
+                <div class="absolute top-0 left-0 w-full h-full highlight-gradient-blue"></div>
+                <h2 class="text-2xl font-bold text-gray-800 mb-6">第九章：唤醒理财天赋的十个具体步骤</h2>
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-6">
+                    <div class="bg-blue-50 rounded-lg p-6 border border-blue-200">
+                        <div class="bg-blue-100 rounded-full w-8 h-8 flex items-center justify-center mr-3 mt-1 mb-3">
+                            <span class="text-blue-700 font-bold">1</span>
+                        </div>
+                        <h3 class="font-bold text-blue-700 mb-2">找一个超现实的理由</h3>
+                        <p class="text-sm text-gray-600">需要一个强有力的理由和目标，如为了自己和爱的人</p>
+                    </div>
+                    <div class="bg-blue-50 rounded-lg p-6 border border-blue-200">
+                        <div class="bg-blue-100 rounded-full w-8 h-8 flex items-center justify-center mr-3 mt-1 mb-3">
+                            <span class="text-blue-700 font-bold">2</span>
+                        </div>
+                        <h3 class="font-bold text-blue-700 mb-2">每天做出选择</h3>
+                        <p class="text-sm text-gray-600">第一个选择是时间，这是你最珍贵的资产；第二个选择是学习</p>
+                    </div>
+                    <div class="bg-blue-50 rounded-lg p-6 border border-blue-200">
+                        <div class="bg-blue-100 rounded-full w-8 h-8 flex items-center justify-center mr-3 mt-1 mb-3">
+                            <span class="text-blue-700 font-bold">3</span>
+                        </div>
+                        <h3 class="font-bold text-blue-700 mb-2">慎重地选择朋友</h3>
+                        <p class="text-sm text-gray-600">选择具有积极财富观念的朋友，避免消极的影响</p>
+                    </div>
+                    <div class="bg-blue-50 rounded-lg p-6 border border-blue-200">
+                        <div class="bg-blue-100 rounded-full w-8 h-8 flex items-center justify-center mr-3 mt-1 mb-3">
+                            <span class="text-blue-700 font-bold">4</span>
+                        </div>
+                        <h3 class="font-bold text-blue-700 mb-2">掌握一种模式</h3>
+                        <p class="text-sm text-gray-600">大多数人只知道一个基本的挣钱模式，就是为了金钱工作</p>
+                    </div>
+                    <div class="bg-blue-50 rounded-lg p-6 border border-blue-200">
+                        <div class="bg-blue-100 rounded-full w-8 h-8 flex items-center justify-center mr-3 mt-1 mb-3">
+                            <span class="text-blue-700 font-bold">5</span>
+                        </div>
+                        <h3 class="font-bold text-blue-700 mb-2">首先支付自己</h3>
+                        <p class="text-sm text-gray-600">能否自律是将富人、穷人和中产阶级区分开来的首要因素</p>
+                    </div>
+                    <div class="bg-blue-50 rounded-lg p-6 border border-blue-200">
+                        <div class="bg-blue-100 rounded-full w-8 h-8 flex items-center justify-center mr-3 mt-1 mb-3">
+                            <span class="text-blue-700 font-bold">6</span>
+                        </div>
+                        <h3 class="font-bold text-blue-700 mb-2">给你的经纪人以优厚的报酬</h3>
+                        <p class="text-sm text-gray-600">许多经纪人会花时间来教导你，他们可能是你得到的最好的资产</p>
+                    </div>
+                    <div class="bg-blue-50 rounded-lg p-6 border border-blue-200">
+                        <div class="bg-blue-100 rounded-full w-8 h-8 flex items-center justify-center mr-3 mt-1 mb-3">
+                            <span class="text-blue-700 font-bold">7</span>
+                        </div>
+                        <h3 class="font-bold text-blue-700 mb-2">做一个"印第安给予者"</h3>
+                        <p class="text-sm text-gray-600">在股票上涨前一周到一个月内将资金调入，赢利后抽回初始资金</p>
+                    </div>
+                    <div class="bg-blue-50 rounded-lg p-6 border border-blue-200">
+                        <div class="bg-blue-100 rounded-full w-8 h-8 flex items-center justify-center mr-3 mt-1 mb-3">
+                            <span class="text-blue-700 font-bold">8</span>
+                        </div>
+                        <h3 class="font-bold text-blue-700 mb-2">用资产来购买奢侈品</h3>
+                        <p class="text-sm text-gray-600">从理论上来说，从一项资产中获得现金流的过程是容易的</p>
+                    </div>
+                    <div class="bg-blue-50 rounded-lg p-6 border border-blue-200">
+                        <div class="bg-blue-100 rounded-full w-8 h-8 flex items-center justify-center mr-3 mt-1 mb-3">
+                            <span class="text-blue-700 font-bold">9</span>
+                        </div>
+                        <h3 class="font-bold text-blue-700 mb-2">对英雄的崇拜</h3>
+                        <p class="text-sm text-gray-600">促使孩子学习的最有效的方法之一便是假装自己变成了自己最崇拜的英雄</p>
+                    </div>
+                    <div class="bg-blue-50 rounded-lg p-6 border border-blue-200">
+                        <div class="bg-blue-100 rounded-full w-8 h-8 flex items-center justify-center mr-3 mt-1 mb-3">
+                            <span class="text-blue-700 font-bold">10</span>
+                        </div>
+                        <h3 class="font-bold text-blue-700 mb-2">先予后取</h3>
+                        <p class="text-sm text-gray-600">当你感到手头"有点紧"或是想得到什么时，首先要想到给予</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 收入类型转换卡片 -->
+            <div class="card md:col-span-2 p-8 flex flex-col justify-center relative">
+                <div class="absolute top-0 left-0 w-full h-full highlight-gradient-green"></div>
+                <h2 class="text-2xl font-bold text-gray-800 mb-4">第十章：收入类型的转换能力</h2>
+                <p class="text-gray-600 mb-6">"变富有的关键是拥有尽快将劳动性收入转换成被动收入或投资组合收入的能力"</p>
+                <div class="space-y-4">
+                    <div class="bg-gray-50 rounded-lg p-4 border border-gray-200">
+                        <h3 class="font-bold text-gray-700">劳动性收入</h3>
+                        <p class="text-sm text-gray-600">通过工作获得的收入</p>
+                    </div>
+                    <div class="flex justify-center">
+                        <i class="fa-solid fa-arrow-down-long text-2xl text-green-500"></i>
+                    </div>
+                    <div class="bg-green-50 rounded-lg p-4 border border-green-200">
+                        <h3 class="font-bold text-green-700">被动收入</h3>
+                        <p class="text-sm text-gray-600">通过资产产生的收入（如租金、股息）</p>
+                    </div>
+                    <div class="bg-green-50 rounded-lg p-4 border border-green-200">
+                        <h3 class="font-bold text-green-700">投资组合收入</h3>
+                        <p class="text-sm text-gray-600">通过投资获得的收入（如股票、债券收益）</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 关键行动策略卡片 -->
+            <div class="card md:col-span-2 p-8 flex flex-col justify-center relative">
+                <div class="absolute top-0 left-0 w-full h-full highlight-gradient-purple"></div>
+                <h2 class="text-2xl font-bold text-gray-800 mb-4">第十章：关键行动策略</h2>
+                <ul class="space-y-4 text-gray-700">
+                    <li class="flex items-start">
+                        <i class="fa-solid fa-hand-holding-dollar text-purple-500 mt-1 mr-3"></i>
+                        <div>
+                            <h3 class="font-bold">利润是买来的，而不是卖出来的</h3>
+                            <p class="text-sm">强调买入时机的重要性，要在购买时就确定利润</p>
+                        </div>
+                    </li>
+                    <li class="flex items-start">
+                        <i class="fa-solid fa-users-gear text-purple-500 mt-1 mr-3"></i>
+                        <div>
+                            <h3 class="font-bold">先寻找买家，再寻找卖家</h3>
+                            <p class="text-sm">这种策略能够确保交易的成功性，避免库存积压</p>
+                        </div>
+                    </li>
+                    <li class="flex items-start">
+                        <i class="fa-solid fa-person-running text-purple-500 mt-1 mr-3"></i>
+                        <div>
+                            <h3 class="font-bold">行动的人总会击败不行动的人</h3>
+                            <p class="text-sm">许多人有好的想法，但缺乏行动，最终被行动者超越</p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+
+            <!-- 全书核心总结卡片 -->
+            <div class="card md:col-span-4 p-8 flex flex-col justify-center items-center text-center relative">
+                <div class="absolute top-0 left-0 w-full h-full highlight-gradient-cyan"></div>
+                <h2 class="text-2xl font-bold text-gray-800 mb-6">全书核心总结</h2>
+                <p class="text-3xl font-bold text-cyan-600 mb-4">"富人让钱为自己工作，穷人为钱工作"</p>
+                <p class="text-gray-600 mb-8 max-w-4xl">财务自由的关键不是收入高低，而是思维模式的转变——从"为钱工作"到"让钱为自己工作"。通过"资产与负债"的精准定义、"四大象限"的路径规划、"财商知识"的系统拆解，为普通人提供了可操作的财富升级指南。</p>
+                <div class="bg-cyan-50 rounded-lg p-6 border border-cyan-200 max-w-3xl">
+                    <p class="text-gray-700"><strong>最重要的资产是我们的头脑</strong>，通过不断学习和实践，每个人都能够提升自己的财商，实现财务自由的目标。财商不是天生的，而是可以通过学习掌握的。只要我们愿意改变观念、持续学习、勇于实践，每个人都能够成为自己财富的主人，实现真正的财务自由。</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
