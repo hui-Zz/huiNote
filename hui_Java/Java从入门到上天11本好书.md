@@ -94,7 +94,7 @@ Brian Goetz等Java核心团队的集体智慧结晶。本书深入浅出地介�
 
 
 
-![img](../assets/img/hui_Java/深入理解Java虚拟机.png)
+![img](../assets/img/hui_Java/Java从入门到上天11本好书/深入理解Java虚拟机.png)
 
 非常难得的国人原创JVM实践性图书。“其中穿插的经验、技巧、案例、实战处处都可见作者的实践之中积累的功力。”此书与Bill Venners的老书《深入Java虚拟机》很大程度上是互补的，可以参看。
 
@@ -104,7 +104,7 @@ Brian Goetz等Java核心团队的集体智慧结晶。本书深入浅出地介�
 
 
 
-![img](../assets/img/hui_Java/Java性能权威指南.png)
+![img](../assets/img/hui_Java/Java从入门到上天11本好书/Java性能权威指南.png)
 
 Java性能方面的新书，可能也是最好的一本。不仅讲述了对什么进行优化，如何优化，还阐述了大量然后编写高效代码的最佳实践。虽然篇幅小一些，但比Oracle官方的那本内容博杂的《Java性能优化权威指南》其实更深入。
 

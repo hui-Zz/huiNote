@@ -232,18 +232,13 @@ CREATE NONCLUSTERED INDEX [IX_Student_sNo] ON student
 
 将一个查询语句做为一个结果集供其他SQL语句使用，就像使用普通的表一样，被当作结果集的查询语句被称为子查询。所有可以使用表的地方几乎都可以使用子查询来代替。
 
-  
-
 select * from (select * from student where sAge<30) as t --被查询的子表必须有别名
 
 where t.sSex ='男' --对子表中的列筛选
 
-![15个常用的SQLServer高级语法-行转列](../../assets/img/hui_DB/15个常用的SQLServer高级语法-行转列.jpg)
-
+![](assets/img/hui_DB/SQLServer/15个常用的SQLServer高级语法/15个常用的SQLServer高级语法-行转列.jpg)
 
 转换为两位小数：CONVERT(numeric(10,2), AVG(english))
-
-  
 
 只有返回且仅返回一行、一列数据的子查询才能当成单值子查询。
 
