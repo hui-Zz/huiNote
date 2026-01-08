@@ -46,7 +46,7 @@ android-app://com.tencent.mm/#Intent;action=com.tencent.mm.action.BIZSHORTCUT;la
 
 扫一扫:
 
-#Intent;action=com.tencent.mm.action.BIZSHORTCUT;launchFlags=0x4000000;B.LauncherUI.From.Scaner.Shortcut=true;end
+`#Intent;action=com.tencent.mm.action.BIZSHORTCUT;launchFlags=0x4000000;B.LauncherUI.From.Scaner.Shortcut=true;end`
 
 联系人/群聊/公众号跳转：
 

@@ -607,7 +607,7 @@ fleamarket://publishentry?v=202408&flutter=true&flutter_animated=false
 fleamarket://communityConfirmPublish
 
 ​
-#### 闲鱼一键擦亮页面url scheme | #iOS17中
+#### 闲鱼一键擦亮页面url scheme | iOS17中
 
 fleamarket://2.taobao.com/onepiece?source=auto&action=ali.open.nav&module=h5&bootImage=0&h5Url=fleamarket://home?forward_url=https://h5.m.goofish.com/cea/idleFish-F2e/dlefish-my-publish-mix/pages/mainsecond&ut_sk=&spm=widle.12011849.1.1&xy_flow_in=xianyu_growth_other.widle_12011849-other_detail-10000-1&spm=xianyu.growth.other.widle_12011849-other_detail-10000-1&bc_fl_src=xianyu_growth_other.widle_12011849-other_detail-10000-1&adv=no&isFishAutoLogin=false
 

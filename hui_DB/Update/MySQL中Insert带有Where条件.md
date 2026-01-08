@@ -1,9 +1,9 @@
-#原sql
+# 原sql
 ```sql
 INSERT INTO card(cardno, cardnum) VALUES('1111', '100');
 ```
 
-#带有Where条件
+# 带有Where条件
 ```sql
 
 INSERT INTO card(cardno, cardnum) 

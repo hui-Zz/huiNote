@@ -71,9 +71,9 @@ select id from t where createdate>='2005-11-30' and createdate<'2005-12-1'
 
 ### 12.不要写一些没有意义的查询，如需要生成一个空表结构：
 
-select col1,col2 into #t from t where 1=0  
+select col1,col2 into t from t where 1=0  
 这类代码不会返回任何结果集，但是会消耗系统资源的，应改成这样：  
-create table #t(...)  
+create table t(...)  
   
 
 ### 13.很多时候用 exists 代替 in 是一个好的选择：
