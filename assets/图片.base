@@ -1,0 +1,12 @@
+views:
+  - type: cards
+    name: 视图
+    filters:
+      or:
+        - file.ext.containsAny("jpg", "jpeg", "png", "webp", "gif")
+    order:
+      - file.name
+      - file.folder
+    cardSize: 220
+    image: file.file
+    imageAspectRatio: 1

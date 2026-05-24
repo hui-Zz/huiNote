@@ -238,7 +238,7 @@
   * [HTML](UI/HTML/README.md)
     * [html5[记]](UI/HTML/html5[记].md)
   * [JS](UI/JS/README.md)
-    * [JavaScript[记]](UI/JS/JavaScript[记].md)
+    * [JavaScript_技巧](hui_UI/JS/JavaScript_技巧.md)
     * [JS全选不选反选](UI/JS/JS全选不选反选.md)
     * [JS判断中文字符](UI/JS/JS判断中文字符.md)
     * [JS加密解密](UI/JS/JS加密解密.md)
